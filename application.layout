@@ -130,6 +130,9 @@
                         <li class="mobile_menu_item">
                           <a href='/pages/cornwall-faq'>FAQ</a>
                         </li>
+                        <li class="mobile_menu_header" >
+                            <a href='/posts' >BLOG</a>
+                        </li> 
                     </ul>
                     <a id="mobile_logo" href="/">
                         <img ALT="mobile_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700" />
