@@ -219,7 +219,7 @@
                         </ul>
                     </li>
                     <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/pages/cornwall-guest-services'">BLOG</button>
+                        <button class="btn-nav" onclick="window.location.href='/posts'">BLOG</button>
                     </li>
                 </ul>
                 <hr>
