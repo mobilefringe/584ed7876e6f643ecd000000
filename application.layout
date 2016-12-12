@@ -94,7 +94,7 @@
                             <a href='/events' >EVENTS</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a href='/pages/aberdeen-guest-services' >GUEST SERVICES</a>
+                            <a href='/pages/cornwall-guest-services' >GUEST SERVICES</a>
                         </li>      
                         <li class="mobile_menu_header" >
                             <a href='/jobs' >CAREERS</a>
@@ -106,29 +106,29 @@
                             <a href='/hours'>Shopping Hours</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/aberdeen-leasing'>Leasing</a>
+                            <a href='/pages/cornwall-leasing'>Leasing</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/aberdeen-accessibility'>Accessibility</a>
+                            <a href='/pages/cornwall-accessibility'>Accessibility</a>
                         </li>        
                         <li class="mobile_menu_item">
-                            <a href='/pages/aberdeen-sponsorships-donations'>Sponsorships & Donations</a>
+                            <a href='/pages/cornwall-sponsorships-donations'>Sponsorships & Donations</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/aberdeen-community-bookings'>Community Bookings</a>
+                          <a href='/pages/cornwall-community-bookings'>Community Bookings</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/aberdeen-marketing-advertising'>Marketing & Advertising</a>
+                          <a href='/pages/cornwall-marketing-advertising'>Marketing & Advertising</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/aberdeen-security'>Security</a>
+                          <a href='/pages/cornwall-security'>Security</a>
                         </li>
                     
                         <li class="mobile_menu_item">
-                          <a href='/pages/aberdeen-contact-us'>Contact Us</a>
+                          <a href='/pages/cornwall-contact-us'>Contact Us</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/aberdeen-faq'>FAQ</a>
+                          <a href='/pages/cornwall-faq'>FAQ</a>
                         </li>
                     </ul>
                     <a id="mobile_logo" href="/">
@@ -181,7 +181,7 @@
                         <button class="btn-nav" onclick="window.location.href='/events'">EVENTS</button>
                     </li>
                     <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/pages/aberdeen-guest-services'">GUEST SERVICES</button>
+                        <button class="btn-nav" onclick="window.location.href='/pages/cornwall-guest-services'">GUEST SERVICES</button>
                     </li>            
                     <li>                        
                         <button class="btn-nav" onclick="window.location.href='/jobs'">CAREERS</button>
@@ -193,33 +193,33 @@
                                 <a class="nav_a" href='/hours' target='_self'><span>Shopping Hours</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-leasing' target='_self'><span>Leasing</span></a>                                
+                                <a class="nav_a" href='/pages/cornwall-leasing' target='_self'><span>Leasing</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-accessibility' target='_self'><span>Accessibility</span></a>                                
+                                <a class="nav_a" href='/pages/cornwall-accessibility' target='_self'><span>Accessibility</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-sponsorships-donations' target='_self'><span>Sponsorships & Donations</span></a>        
+                                <a class="nav_a" href='/pages/cornwall-sponsorships-donations' target='_self'><span>Sponsorships & Donations</span></a>        
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-community-bookings' target='_self'><span>Community Bookings</span></a>                                
+                                <a class="nav_a" href='/pages/cornwall-community-bookings' target='_self'><span>Community Bookings</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-marketing-advertising' target='_self'><span>Marketing & Advertising</span></a>                            
+                                <a class="nav_a" href='/pages/cornwall-marketing-advertising' target='_self'><span>Marketing & Advertising</span></a>                            
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-security' target='_self'><span>Security</span></a>                                
+                                <a class="nav_a" href='/pages/cornwall-security' target='_self'><span>Security</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-contact-us' target='_self'><span>Contact Us</span></a>                                
+                                <a class="nav_a" href='/pages/cornwall-contact-us' target='_self'><span>Contact Us</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/aberdeen-faq' target='_self'><span>FAQ</span> </a>                                
+                                <a class="nav_a" href='/pages/cornwall-faq' target='_self'><span>FAQ</span> </a>                                
                             </li>
                         </ul>
                     </li>
                     <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/pages/aberdeen-guest-services'">BLOG</button>
+                        <button class="btn-nav" onclick="window.location.href='/pages/cornwall-guest-services'">BLOG</button>
                     </li>
                 </ul>
                 <hr>
@@ -382,7 +382,7 @@
                                     </div>
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">
-                                            <a href="/pages/aberdeen-guest-services">GUEST SERVICES</a>                                
+                                            <a href="/pages/cornwall-guest-services">GUEST SERVICES</a>                                
                                         </span>
                                     </div>
                                     <div class="nav_sitemap_item">
@@ -399,21 +399,21 @@
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                         <a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-leasing' target='_self'>Leasing</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-leasing' target='_self'>Leasing</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-accessibility' target='_self'>Accessibility</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-accessibility' target='_self'>Accessibility</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-sponsorships-donations' target='_self'>Sponsorships & Donations</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-sponsorships-donations' target='_self'>Sponsorships & Donations</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-community-bookings' target='_self'>Community Bookings</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-community-bookings' target='_self'>Community Bookings</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-marketing-advertising' target='_self'>Marketing & Advertising</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-marketing-advertising' target='_self'>Marketing & Advertising</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-security' target='_self'>Security</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-security' target='_self'>Security</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-contact-us' target='_self'>Contact Us</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-contact-us' target='_self'>Contact Us</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
+                                        <a class="site_map_submenu" href='/pages/cornwall-faq' target='_self'>FAQ</a>
                                     </div>
                                 </div>   
                             </div>
@@ -425,7 +425,7 @@
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; 2015 Cornwall Centre | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; 2015 Cornwall Centre | <a href="/pages/cornwall-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="//www.20vic.com/" target="_blank">
                 <img ALT="20vic_logo" src="//aberdeenmall.ca/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
