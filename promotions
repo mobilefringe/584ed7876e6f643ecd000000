@@ -24,8 +24,10 @@
             </script>
         </div>
         <div class="line_break">&nbsp;</div>
-        <h1 class="page_title" id="store_promos">Store Promotions</h1>
-        <hr>
+        <div id="store_promos">
+            <h1 class="page_title" id="store_promos">Store Promotions</h1>
+            <hr>    
+        </div> 
         <div id="store_promo_container"> 
             <script id="store_promo_template" type="x-tmpl-mustache/text">
                 <div class="row-fluid store_promo">
