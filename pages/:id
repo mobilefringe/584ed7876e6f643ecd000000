@@ -24,7 +24,7 @@
             $.getJSON(pages_json).done(function(data) {
                 $('#page_title').html(data.title);
                 $('#page_body').html(data.body);
-                if(slug === "aberdeen-contact-us") {
+                if(slug === "cornwall-contact-us") {
                     $("#contact_us").show();
                 }
             }).fail(function(jqXHR) {
