@@ -106,59 +106,67 @@ p{
 }
 
 .brand_nav{
-    background-color: #000000;
+    height: 36px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top:0px;    
+    z-index:100;
 }
 
-.blogpost_content{
-    max-height:120px;
+.brand_nav .select_parent{
+    width: 220px;
     overflow:hidden;
 }
 
-.feature_label{
-    background-color: #000000;
+.brand_nav .select_locale_parent{
+    width: 100px;
+    margin-left:15px;
+    overflow:hidden;
 }
 
-.btn-nav{
-    color:#000000;    
+.brand_nav select{
+    border: none;
+    border-radius: 0 0 0 0;
+    height: 26px;
+    margin-top: 5px;
+    padding: 3px 5px;
+    width: 250px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height:1em;
+    background-color: #e0e0e0;
+    background: url(//www.mallmaverick.com/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat 82% 50% #ddd;
+    background-size: 14px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #555555;
 }
 
-.stores_table_headers{
-    background-color: #000000;
+.brand_nav .select_locale_parent select{
+   width: 150px;
+   background: url(//www.mallmaverick.com/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat 80px 50% #ddd;
+   background-size:14px 10px;
 }
 
-.controls{
-    background-color: #000000;
+.brand_nav .arrow-down{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+	border-top: 5px solid black;
+    
+    position: absolute;
+    z-index:910;
+    right:30px;
 }
 
-#site_nav li button:focus{
-    background-color: #e5f5fd;
-}
-
-#site_nav ul li ul li a:hover
-{
-    background: #e5f5fd; 
-}
 
 
-.stores_table_headers .pull-right{
-    color: #ededed;
-}
-
-.stores_table_headers .pull-right .arrow-up{
-    border-bottom-color: #ededed;
-}
-
-.store_btn{
-    background-color: black;
-}
-
-.nav_site_map_link {
-    height: 245px;
-}
-a.readmore:link, a.readmore:visited{
-    color:#f16200;
-    display:block;
-    text-align:right;
+.content_area{
+    background-image:url(BACKGROUND_IMAGE);
+    background-color: #D6D6D6;
 }
 
 .container-fluid{
@@ -2189,59 +2197,39 @@ td.stores_pin{
 }
 
 .brand_nav{
-      position: relative;
-    background-color: #3D441E;
+    background-color: #000000;
+}
+
+.blogpost_content{
+    max-height:120px;
+    overflow:hidden;
+}
+
+.feature_label{
+    background-color: #000000;
 }
 
 .btn-nav{
-    color:  #3D441E; 
-}
-.store_details h1{
-    padding-bottom: 15px;
-    font-family:futura,futura_medium_light_ie;
-}
-.feature_label{
-    background-color: #A89968;
+    color:#000000;    
 }
 
-.stores_table_headers {
-    padding-top: 6px;
-    padding-left: 12px;
-    height: 36px;
-    background-color: #4d413e;
-    text-align: left;
-    font-size: 14pt;
+.stores_table_headers{
+    background-color: #000000;
 }
 
 .controls{
-    background-color: #4d413e;
-}
-.store_desc{
-    padding: 20px 0px;
-    clear:both;
-    font-family: futura_medium_light,futura_medium_light_ie;
+    background-color: #000000;
 }
 
-.store_desc p{
-    font-family: futura_medium_light,futura_medium_light_ie;  
-    color: #4c4c4c;    
+#site_nav li button:focus{
+    background-color: #e5f5fd;
 }
-.hour_title, .check_hours{
-    color:#4d413e;
-}
-
-.hour_info{
-    color:#3D441E;    
-}
-
-// #site_nav li button:focus{
-//     background-color: #e5f5fd;
-// }
 
 #site_nav ul li ul li a:hover
 {
     background: #e5f5fd; 
 }
+
 
 .stores_table_headers .pull-right{
     color: #ededed;
@@ -2252,62 +2240,14 @@ td.stores_pin{
 }
 
 .store_btn{
-    background-color:#A89968;   
+    background-color: black;
 }
 
-.nav_sitemap_item:nth-child(5){
-    margin-bottom: 90px;
+.nav_site_map_link {
+    height: 245px;
 }
-
-.blog-post .meta{
-    padding-left: 30px;
-    padding-bottom: 10px;
-    position: absolute;
-    bottom: 15px;
-    background-color: #55a773;
-    background-color: rgba(85, 167, 115, 0.85);
-    color: #ccecd7;    
+a.readmore:link, a.readmore:visited{
+    color:#f16200;
+    display:block;
+    text-align:right;
 }
-
-.bottom_nav .nav_site_map .nav_site_map_link{
-    overflow: auto\9;
-    column-count: 2;
-    text-align: justify;
-    -moz-column-count: 2;
-    -moz-column-gap: 1.5em;
-    -moz-column-rule: none;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 1.5em;
-    -webkit-column-rule: none;
-    padding-bottom: 0px;
-}
-
-.nav_site_map_link{
-    height: auto;
-}
-
-#site_nav ul.dropdown-menu{
-    border-radius:0;
-    background-color: white;
-    top: 43px;
-    left: 0px;
-    border: solid 1px gray;
-    border-radius: 5px;
-    min-width: 270%;
-}
-
-.blog-teaser header{
-    height: 350px;
-}
-
-.blog-teaser header img{
-    max-height: 200px;
-    max-width: 100%;
-}
-
-.blog-teaser .body{
-    height:249px;
-    overflow:hidden
-}
-
-
