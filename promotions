@@ -22,8 +22,9 @@
                 </div>
                 <div class="line_break">&nbsp;</div>
             </script>
+            <div class="line_break">&nbsp;</div>
         </div>
-        <div class="line_break">&nbsp;</div>
+        
         <div id="store_promos">
             <h1 class="page_title" id="store_promos">Store Promotions</h1>
             <hr>    
