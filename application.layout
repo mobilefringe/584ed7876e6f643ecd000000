@@ -315,7 +315,7 @@
                             <input id="fieldEmail" name=cm-ykoui-ykoui type="email" required placeholder="Your Email" />  
                             <span>
                                 <label style="display:none" for="agree_terms">Subscribe</label>
-                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Aberdeen Mall
+                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Cornwall Centre
                                 
                             </span>
                             <button class="btn"/>Subscribe</button>                      
@@ -422,7 +422,7 @@
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; 2015 Aberdeen Mall | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; 2015 Cornwall Centre | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="//www.20vic.com/" target="_blank">
                 <img ALT="20vic_logo" src="//aberdeenmall.ca/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
