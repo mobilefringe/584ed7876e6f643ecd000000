@@ -218,6 +218,9 @@
                             </li>
                         </ul>
                     </li>
+                    <li>                        
+                        <button class="btn-nav" onclick="window.location.href='/pages/aberdeen-guest-services'">BLOG</button>
+                    </li>
                 </ul>
                 <hr>
 		   	</div>                 
