@@ -1020,24 +1020,24 @@ a.btn-prime {
     font-family:futura_condensed;
 }
 
-.feature_label{
+.feature_label {
     margin:0px;
     color: white;
-    padding:17px 4% 0;    
-    background-color: #000;
-    height:20px;   
+    padding: 5px 10px 0;    
+    background-color: transparent;
+    height: 38px;   
     font-family: inherit;
-    font-size:2em;
-    font-size:1.3em\9;
-    position:absolute;    
-    left:0;
-    z-index:900;
-    width:92%;
+    font-size: 2em;
+    // font-size: 1.3em\9;
+    // position:absolute;    
+    // left:0;
+    // z-index:900;
+    width: 100%;
 }
 
-.hour_box .feature_label {
-    top: -15px;
-}
+// .hour_box .feature_label {
+//     top: -15px;
+// }
 
 .right_feature_box .feature_label {
     top:0;
@@ -1999,15 +1999,15 @@ td.stores_pin{
 }
 
 @media (max-width: 800px)  and (-webkit-min-device-pixel-ratio:0) {
-    .feature_label{
-        width: 92%;
-    }
+    // .feature_label{
+    //     width: 92%;
+    // }
 }
 
 @media (max-width: 640px)  and (-webkit-min-device-pixel-ratio:0) {
-    .feature_label{
-        width: 93%;
-    }
+    // .feature_label{
+    //     width: 93%;
+    // }
     .mfp-ready, .mfp-wrap{
         display:none;
     }
@@ -2056,9 +2056,9 @@ td.stores_pin{
     margin: -4px 0 0;    
 }
 
-.feature_label{
-    background-color:transparent !important;
-}
+// .feature_label{
+//     background-color:transparent !important;
+// }
 
 .brand_nav{
       position: relative;
@@ -2081,9 +2081,9 @@ td.stores_pin{
     
 }
 
-.feature_label{
-    background-color: #A89968;
-}
+// .feature_label{
+//     background-color: #A89968;
+// }
 
 .stores_table_headers{
     background-color: #4d413e;
@@ -2193,9 +2193,9 @@ td.stores_pin{
     overflow:hidden
 }
 
-.feature_label{
-    background-color:transparent !important;
-}
+// .feature_label{
+//     background-color:transparent !important;
+// }
 
 .brand_nav{
     background-color: #000000;
@@ -2206,7 +2206,7 @@ td.stores_pin{
     overflow:hidden;
 }
 
-.feature_label{
+.feature_label {
     background-color: #000000;
 }
 
