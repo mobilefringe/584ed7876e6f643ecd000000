@@ -1736,7 +1736,7 @@ td.stores_pin{
         height: 80px;
     }
     #centre_logo {
-        top: -25px;
+        top: -80px;
     }
     .container-fluid{
         padding:0 10px;
@@ -1745,6 +1745,7 @@ td.stores_pin{
         width: 95%;
     }
     #site_nav ul {
+        top: 0;
         right: 20px;
     }
     
@@ -1770,9 +1771,9 @@ td.stores_pin{
         height: 227px;
     }
     
-    .hour_box .feature_label {
-        padding: 17px 2% 0;
-    }
+    // .hour_box .feature_label {
+    //     padding: 17px 2% 0;
+    // }
     .hour_box .check_hours {
         padding: 0;
         padding-left: 10px;
@@ -1886,10 +1887,13 @@ td.stores_pin{
         width: 100%;
         height: auto;
     }
-    .hour_box .feature_label {
-        padding: 13px 20px 0;
-        top: -10px;
+    .hour_box .hour_info {
+        height: auto;
     }
+    // .hour_box .feature_label {
+    //     padding: 13px 20px 0;
+    //     top: -10px;
+    // }
     .hour_box div{
         padding-top: 25px;
     }
@@ -1906,10 +1910,10 @@ td.stores_pin{
     .hour_box .check_hours {
         padding-left: 20px;
     }
-    .feature_label{
-        font-size:1.2em;
-        padding-top: 7px;
-    }
+    // .feature_label{
+    //     font-size:1.2em;
+    //     padding-top: 7px;
+    // }
 
     .right_feature_box{
         margin: 0;
