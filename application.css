@@ -1997,6 +1997,9 @@ td.stores_pin{
         margin-top: 10px;
         padding-bottom: 10px;
     }
+    .promo_info p {
+        word-wrap: break-word;
+    }
     #promo_details_container img,
     #event_details_container img {
         max-width: 100%;
