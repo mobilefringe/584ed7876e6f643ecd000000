@@ -7,7 +7,7 @@
                 <h2><a href='/posts/{{slug}}'>{{title}}</a></h2>
                 <p>{{publish_date}} + {{author}}</p>
                 <img src="{{image_url}}" />
-                <p class="blogpost_content">{{{html_body}}}</p>
+                <p class="blogpost_content">{{{body}}}</p>
                 <a href='/posts/{{slug}}' class="readmore">Read More</a>
             </div>
         </script>
@@ -48,7 +48,7 @@
                 // val.description_short = val.description_short.replace("&amp;", "&");
                 
                 var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
-                val.publish_date = published_on.format("MMMM Do YYYY");
+                val.publish_date = published_on.format("MMMM Do, YYYY");
                 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
