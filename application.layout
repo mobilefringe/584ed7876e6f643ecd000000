@@ -195,25 +195,22 @@
                                 <a class="nav_a" href='/pages/cornwall-leasing' target='_self'><span>Leasing</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-accessibility' target='_self'><span>Accessibility</span></a>                                
+                                <a class="nav_a" href='/pages/cornwall-mall-info' target='_self'><span>Mall Info</span></a>                              
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-sponsorships-donations' target='_self'><span>Sponsorships & Donations</span></a>        
+                                <a class="nav_a" href='/pages/cornwall-accessibility' target='_self'><span>Accessibility</span></a>                      
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-community-bookings' target='_self'><span>Community Bookings</span></a>                                
+                                <a class="nav_a" href='/pages/cornwall-community-wifi' target='_self'><span>Community Relations</span></a>              
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-marketing-advertising' target='_self'><span>Marketing & Advertising</span></a>                            
+                                <a class="nav_a" href='/pages/cornwall-contact-us' target='_self'><span>Contact Us</span></a>                            
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/cornwall-security' target='_self'><span>Security</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-contact-us' target='_self'><span>Contact Us</span></a>                                
-                            </li>
-                            <li>
-                                <a class="nav_a" href='/pages/cornwall-faq' target='_self'><span>FAQ</span> </a>                                
+                                <a class="nav_a" href='/pages/cornwall-parking-at-cornwall-centre' target='_self'><span>Parking Info</span> </a>        
                             </li>
                         </ul>
                     </li>
