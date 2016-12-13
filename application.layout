@@ -354,16 +354,6 @@
                         <a class="twitter-timeline" data-height="350" href="https://twitter.com/CornwallCentre">Tweets by CornwallCentre</a> 
                         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
-                    <div class="line_break"></div>
-                    <div class="social_links hidden-xs">
-        		        
-        		            <span><i class="fa fa-pinterest social_icon" aria-hidden="true"></i></span>
-        		            <span><i class="fa fa-youtube social_icon" aria-hidden="true"></i></span>
-        		            <span><i class="fa fa-google-plus-official social_icon" aria-hidden="true"></i></span>
-                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
-                      
-        		      
-                    </div>
                 </div>
         		<div class="col-sm-12 col-md-4">   
         		<div class="mobile_line_break"></div>
@@ -433,8 +423,16 @@
                                     <a href="/posts">BLOG</a>
                                 </span>
                             </div>
-                        
                         </div>
+                    </div>
+                    <div class="social_links hidden-xs">
+        		        
+        		            <span><i class="fa fa-pinterest social_icon" aria-hidden="true"></i></span>
+        		            <span><i class="fa fa-youtube social_icon" aria-hidden="true"></i></span>
+        		            <span><i class="fa fa-google-plus-official social_icon" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
+                      
+        		      
                     </div>
                 </div>
                 <div style="clear:both;">&nbsp;</div>
