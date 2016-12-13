@@ -1874,6 +1874,11 @@ td.stores_pin{
     .container_body{
         min-height: 100%;
     }
+    .mobile_logo {
+        position: absolute;
+        left: 10px;
+        max-width: 50%;
+    }
     
     .feature_links {
         margin-left: -5px;
