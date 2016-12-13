@@ -2146,9 +2146,9 @@ td.stores_pin{
     text-decoration: none;
 }
 
-.nav_sitemap_item:nth-child(5){
-    margin-bottom: 90px;
-}
+// .nav_sitemap_item:nth-child(5){
+//     margin-bottom: 90px;
+// }
 
 .blog-post .meta{
     padding-left: 30px;
