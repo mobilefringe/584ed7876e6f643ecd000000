@@ -1896,7 +1896,7 @@ td.stores_pin{
         height: auto;
     }
     .hour_info a {
-        color: #000;
+        color: inherit;
     }
     // .hour_box .feature_label {
     //     padding: 13px 20px 0;
