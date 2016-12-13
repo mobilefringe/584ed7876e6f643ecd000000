@@ -1898,6 +1898,9 @@ td.stores_pin{
     .hour_info a {
         color: inherit;
     }
+    .check_hours {
+        color: #000;
+    }
     // .hour_box .feature_label {
     //     padding: 13px 20px 0;
     //     top: -10px;
