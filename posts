@@ -17,10 +17,8 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            // var pathArray = window.location.pathname.split( '/' );
-            // var blog_slug = pathArray[pathArray.length-1];
-            // var blog = getBlogDataBySlug('main');
-            // console.log(blog.posts);
+            var blog = getBlogDataBySlug('cornwall-main');
+            console.log(blog);
             // var post_details = getPostDetailsBySlug(blog_slug);
             
             
