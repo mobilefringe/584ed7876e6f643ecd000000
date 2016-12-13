@@ -17,11 +17,12 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var blog = getBlogDataBySlug('cornwall-main').posts;
+            var blog = getBlogDataBySlug('cornwall-main');
             console.log(blog);
+            var posts = blog.posts;
             // var post_details = getPostDetailsBySlug(blog_slug);
             
-            renderPosts('#blog_container', '#blog_template', blog);
+            renderPosts('#blog_container', '#blog_template', posts);
             // $.each(blogs, function(key, val){
                 
             // });
