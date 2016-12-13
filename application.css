@@ -2223,6 +2223,10 @@ td.stores_pin{
 .blogpost img {
     max-width: 100%;
 }
+.blogpost h2 a {
+    color: inherit;
+    text-decoration: none;
+}
 .blogpost_content{
     max-height:120px;
     overflow:hidden;
