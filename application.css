@@ -1366,7 +1366,10 @@ hr{
 #promo, #job {
     display: none;
 }
-
+.promo_info img {
+    width: 100%;
+    height: 100%;
+}
 /************** lightbox *************/
 .lightbox {
     background-color: transparent;
