@@ -6,7 +6,7 @@
             <div class="blogpost">
                 <h2><a href='/posts/{{slug}}'>{{title}}</a></h2>
                 <p>{{publish_date}} + {{author}}</p>
-                <img src="{{image_url}}" />
+                <a href='/posts/{{slug}}'><img src="{{image_url}}"/></a>
                 <p class="blogpost_content">{{body}}</p>
                 <a href='/posts/{{slug}}' class="readmore">Read More</a>
             </div>
