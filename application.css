@@ -1031,7 +1031,7 @@ a.btn-prime {
     // font-size: 1.3em\9;
     // position:absolute;    
     // left:0;
-    // z-index:900;
+    z-index: 900;
     width: 100%;
 }
 
