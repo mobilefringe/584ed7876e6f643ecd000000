@@ -23,10 +23,6 @@
             var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
             
             renderPosts('#blog_container', '#blog_template', posts);
-            // $.each(blogs, function(key, val){
-                
-            // });
-            
         }
         function renderPosts(container, template, collection){
             var item_list = [];
@@ -39,16 +35,7 @@
                 } else {
                     val.image_url = val.image_url;
                 }
-                // if(val.html_body.length > 500){
-                //     val.html_body = val.html_body.substring(0,499) + "...";
-                // }
-                // else{
-                //     val.description_short = val.body;
-                // }
-                if (val.author === "CC") {
-                    val.author = "Cornwall Centre";
-                }
-                
+
                 var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
                 val.publish_date = published_on.format("MMMM Do, YYYY");
                 
