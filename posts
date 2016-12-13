@@ -4,12 +4,12 @@
     <div id="blog_container">
         <script id="blog_template" type="x-tmpl-mustache/text">
             div class="blogpost">
-                    <h2><a href='/posts/{{post.slug}}'>{{ post.title }}</a></h2>
-                    <p>{{ post.publish_date }} + {{ post.author }}</p>
-                    <img src="{{ post.image_path }}" />
-                    <p class="blogpost_content">{{ post.body | strip_html | remove: "&nbsp;" }}</p>
-                    <a href='/posts/{{post.slug}}' class="readmore">Read More</a>
-                </div>
+                <h2><a href='/posts/{{post.slug}}'>{{ post.title }}</a></h2>
+                <p>{{ post.publish_date }} + {{ post.author }}</p>
+                <img src="{{ post.image_path }}" />
+                <p class="blogpost_content">{{ post.body | strip_html | remove: "&nbsp;" }}</p>
+                <a href='/posts/{{post.slug}}' class="readmore">Read More</a>
+            </div>
         </script>
     </div>
 </div>
@@ -22,14 +22,7 @@
             $.each(blogs, function(key, val){
                 
             });
-            if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
-                renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
-                var sorted_store_jobs = store_published_jobs.sortBy(function(o){ return o.store_name});
-                renderJobs('#store_jobs_container', '#store_jobs_template', sorted_store_jobs);
-            }
-            else {
-                $('#no_jobs').show();
-            }
+            
         }
         loadMallDataCached(renderAll); 
     })
