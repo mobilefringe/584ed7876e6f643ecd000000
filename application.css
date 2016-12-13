@@ -466,6 +466,10 @@ legend{
     // width: 30%;
 }
 
+.bottom_nav .nav_site_map .site_map_cols {
+    column-count: 2;
+}
+
 // .bottom_nav .nav_site_map .nav_site_map_link{
 //     overflow: auto\9;
 //     column-count: 2;
