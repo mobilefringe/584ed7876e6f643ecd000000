@@ -2105,11 +2105,11 @@ td.stores_pin{
     color: #4c4c4c;    
 }
 .hour_title, .check_hours{
-    color:#4d413e;
+    color: #000;
 }
 
 .hour_info{
-    color:#3D441E;    
+    color: #808080;    
 }
 
 // #site_nav li button:focus{
