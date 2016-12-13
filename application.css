@@ -2221,6 +2221,7 @@ td.stores_pin{
     background-color: #000000;
 }
 .blogpost img {
+    margin-bottom: 10px;
     max-width: 100%;
 }
 .blogpost h2 a {
