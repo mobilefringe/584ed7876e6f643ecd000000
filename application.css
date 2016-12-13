@@ -1040,7 +1040,8 @@ a.btn-prime {
 // }
 
 .right_feature_box .feature_label {
-    top:0;
+    position: absolute;
+    top: 0;
 }
 
 .right_feature_box .feature_label{
