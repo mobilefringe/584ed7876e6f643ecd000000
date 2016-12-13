@@ -4,11 +4,11 @@
     <div id="blog_container">
         <script id="blog_template" type="x-tmpl-mustache/text">
             <div class="blogpost">
-                <h2><a href='/posts/{{post.slug}}'>{{title}}</a></h2>
+                <h2><a href='/posts/{{slug}}'>{{title}}</a></h2>
                 <p>{{publish_date}} + {{author}}</p>
                 <img src="{{image_url}}" />
-                <p class="blogpost_content">{{ post.body | strip_html | remove: "&nbsp;" }}</p>
-                <a href='/posts/{{post.slug}}' class="readmore">Read More</a>
+                <p class="blogpost_content">{{{html_body}}}</p>
+                <a href='/posts/{{slug}}' class="readmore">Read More</a>
             </div>
         </script>
     </div>
