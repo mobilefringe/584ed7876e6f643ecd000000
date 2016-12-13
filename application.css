@@ -2098,8 +2098,12 @@ td.stores_pin{
 //     background-color: #A89968;
 // }
 
-.stores_table_headers{
-    background-color: #4d413e;
+.stores_table_headers {
+    padding-top: 6px;
+    padding-left: 12px;
+    height: 36px;
+    text-align: left;
+    font-size: 14pt;
 }
 
 .controls{
