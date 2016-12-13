@@ -332,8 +332,17 @@
                         <a href="" target="_blank">
                              <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
                         </a>
-                        <a href="//instagram.com/AberdeenMall#" target="_blank">
-                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
+		                <a href="//www.pinterest.com/cornwallcentre/" target="_blank">
+		                    <i class="fa fa-pinterest social_icon" aria-hidden="true"></i>
+		                </a>
+		                <a href="//www.youtube.com/user/CornwallCentre" target="_blank">
+		                    <i class="fa fa-youtube social_icon" aria-hidden="true"></i>
+	                    </a>
+		                <a href="//plus.google.com/113773191865855064312" target="_blank">
+		                    <i class="fa fa-google-plus-official social_icon" aria-hidden="true"></i>
+	                    </a>
+                        <a href="https://www.instagram.com/cornwallcentre/" target="_blank">
+                            <i class="fa fa-instagram social_icon" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
