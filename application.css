@@ -2248,7 +2248,7 @@ td.stores_pin{
 }
 .blogpost img {
     margin-bottom: 10px;
-    max-width: 100%;
+    width: 100%;
 }
 .blogpost h2 a {
     color: inherit;
