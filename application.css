@@ -1049,10 +1049,10 @@ a.btn-prime {
 // }
 
 .long_feature_box{
-    float:left;
-    overflow:hidden;
-    width: 49.5%;
-    margin-bottom: 10px;
+    // float:left;
+    overflow: hidden;
+    // width: 49.5%;
+    // margin-bottom: 10px;
 }
 
 .feature_boxes .long_feature_box:nth-child(2n-1){
