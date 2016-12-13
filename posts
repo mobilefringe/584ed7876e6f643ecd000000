@@ -17,8 +17,16 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var blogs = getBlogList();
-            console.log(blogs);
+            var pathArray = window.location.pathname.split( '/' );
+            var blog_slug = pathArray[pathArray.length-1];
+            var blog = getBlogDataBySlug('home-features');
+            console.log(blog.posts);
+            var post_details = getPostDetailsBySlug(blog_slug);
+            
+            
+            
+            // var blogs = getBlogList();
+            // console.log(blogs);
             $.each(blogs, function(key, val){
                 
             });
