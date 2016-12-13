@@ -1113,10 +1113,10 @@ a.btn-prime {
 
 .hour_box .home_hours_info{
     padding: 0px 10px 0;
-    margin:14px 0 4px;
-    font-size:1.83em;
-    font-size:1.25em\9;
-    margin:22px 0\9;
+    margin: 10px 0 5px;
+    font-size: 1.83em;
+    font-size: 1.25em\9;
+    margin: 22px 0\9;
     font-family: inherit;
 }
 
@@ -1128,7 +1128,7 @@ a.btn-prime {
 }
 .hour_info{
     color: gray;
-    display: block;
+    // display: block;
     font-family: inherit;
 }
 
