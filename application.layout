@@ -359,10 +359,13 @@
         		<div class="mobile_line_break"></div>
         		    <div class="social_links hidden-xs">
         		        <label for="nav_site_map_link_id" >
+        		            <span><i class="fa fa-pinterest social_icon" aria-hidden="true"></i></span>
+        		            <span><i class="fa fa-youtube social_icon" aria-hidden="true"></i></span>
+        		            <span><i class="fa fa-google-plus-official social_icon" aria-hidden="true"></i></span>
                             <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
-                            INSTAGRAM
+                            <!--INSTAGRAM-->
         		        </label>
-        		        <p><a href="http://instagram.com/AberdeenMall#" target="_blank">Follow Us On Instagram!</a></p>
+        		        <!--<p><a href="http://instagram.com/AberdeenMall#" target="_blank">Follow Us On Instagram!</a></p>-->
                     </div>
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" >NAVIGATION</label>
