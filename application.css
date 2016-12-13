@@ -1107,7 +1107,8 @@ a.btn-prime {
 }
 
 .hour_box .hour_info {
-    padding: 40px 0 5px;
+    // padding: 40px 0 5px;
+    height: 200px;
 }
 
 .hour_box p{
