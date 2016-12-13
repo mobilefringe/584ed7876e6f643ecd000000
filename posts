@@ -21,7 +21,7 @@
             console.log(blog);
             // var post_details = getPostDetailsBySlug(blog_slug);
             
-
+            renderGeneral('#blog_container', '#blog_template', blog.posts);
             $.each(blogs, function(key, val){
                 
             });
