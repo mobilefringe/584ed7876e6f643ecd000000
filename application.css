@@ -1674,9 +1674,9 @@ td.stores_pin{
 }
 
 .mobile_header .dropdown-menu{
-    width:100%;
-    left:0%;
-    margin-top: -5px;
+    width: 100%;
+    left: 0%;
+    margin-top: 60px;
     border: none;
 }
 
