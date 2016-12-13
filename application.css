@@ -2274,6 +2274,9 @@ td.stores_pin{
 .nav_site_map_link {
     height: 245px;
 }
+a.readmore:hover {
+    text-decoration: none;
+}
 a.readmore:link, a.readmore:visited{
     color:#f16200;
     display:block;
