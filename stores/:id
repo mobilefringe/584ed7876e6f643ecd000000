@@ -46,12 +46,9 @@
             <script id="promos_template" type="x-tmpl-mustache/text">
                 <div class="row-fluid">
                     <div class="col-sm-3">
-                    
                         <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
                             <img src="{{promo_image_url_abs}}">
                         </a>
-                        
-                        
                     </div>
                     <div class="col-sm-9">
                         <div class="promo_info">                   
@@ -78,12 +75,12 @@
                             <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
                                 <img ALT="arrow_down" class="pull-right" src="//mallmaverick.com/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994" />
                                 <h2 class="job_title"><span class="store_name">{{store_name}}</span> - {{name}}</h2>
-                                <h2 class="job_close_date">{{job_type}}</h2>
+                                <h2 class="job_close_date">Closing Date: {{end_date}}</h2>
                             </div>
                         </div>
                         <div id="collapse{{id}}" class="accordion-body collapse">
                             <div class="accordion-inner">                        
-                                <h2>Closing Date: {{end_date}}</h2>
+                                <h2>{{job_type}}</h2>
                                 <p>&nbsp;</p>
                                 <p>{{{rich_description}}}</p>
                                 {{#contact_name}}
