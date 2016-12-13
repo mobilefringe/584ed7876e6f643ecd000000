@@ -1895,10 +1895,10 @@ td.stores_pin{
     .hour_box .hour_info {
         height: auto;
     }
-    .hour_info {
+    .hour_info a {
         color: #808080;
     }
-    .check_hours {
+    .hour_box .check_hours {
         color: #000;
     }
     // .hour_box .feature_label {
