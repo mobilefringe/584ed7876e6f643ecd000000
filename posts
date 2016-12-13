@@ -20,7 +20,6 @@
             var blog = getBlogDataBySlug('cornwall-main');
             console.log(blog);
             var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
-            // var post_details = getPostDetailsBySlug(blog_slug);
             
             renderPosts('#blog_container', '#blog_template', posts);
             // $.each(blogs, function(key, val){
@@ -49,7 +48,7 @@
                 // val.description_short = val.description_short.replace("&amp;", "&");
                 
                 var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
-                val.publish_date = published_on.format("MMM D");
+                val.publish_date = published_on.format("MMMM Do YYYY");
                 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
