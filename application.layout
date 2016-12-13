@@ -109,26 +109,22 @@
                             <a href='/pages/cornwall-leasing'>Leasing</a>
                         </li>
                         <li class="mobile_menu_item">
+                            <a href='/pages/cornwall-mall-info'>Mall Info</a>
+                        </li>
+                        <li class="mobile_menu_item">
                             <a href='/pages/cornwall-accessibility'>Accessibility</a>
                         </li>        
                         <li class="mobile_menu_item">
-                            <a href='/pages/cornwall-sponsorships-donations'>Sponsorships & Donations</a>
+                          <a href='/pages/cornwall-community-wifi'>Community Relations</a>
                         </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-community-bookings'>Community Bookings</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-marketing-advertising'>Marketing & Advertising</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-security'>Security</a>
-                        </li>
-                    
                         <li class="mobile_menu_item">
                           <a href='/pages/cornwall-contact-us'>Contact Us</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-faq'>FAQ</a>
+                          <a href='/pages/cornwall-security'>Security</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                          <a href='/pages/cornwall-parking-at-cornwall-centre'>Parking Info</a>
                         </li>
                         <li class="mobile_menu_header" >
                             <a href='/posts' >BLOG</a>
