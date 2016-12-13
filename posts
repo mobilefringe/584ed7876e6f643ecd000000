@@ -3,7 +3,7 @@
     <hr>
     <div id="blog_container">
         <script id="blog_template" type="x-tmpl-mustache/text">
-            div class="blogpost">
+            <div class="blogpost">
                 <h2><a href='/posts/{{post.slug}}'>{{ post.title }}</a></h2>
                 <p>{{ post.publish_date }} + {{ post.author }}</p>
                 <img src="{{ post.image_path }}" />
