@@ -14,6 +14,7 @@
                     <div class="col-sm-9">
                         <div class="promo_info">
                             <a href="/promotions/{{slug}}"><h2>{{name}}</h2></a>
+                            <a href="/stores/{{}}"><h2>{{store_name}}</h2></a>
                             <span class="promo_date">{{dates}}</span>
                             <div><p>{{{rich_description}}}</p></div>
                         </div>
@@ -55,6 +56,7 @@
         init(e);
         function renderAll(){
             var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
+            console.log(promotions);
             var mall_published_promos = [];
             var store_published_promos = [];
             $.each(promotions, function(key, val){
