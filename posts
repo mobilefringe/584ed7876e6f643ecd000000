@@ -40,8 +40,8 @@
                 } else {
                     val.post_image = val.image_url;
                 }
-                if(val.html_body.length > 75){
-                    val.html_body = val.html_body.substring(0,74) + "...";
+                if(val.html_body.length > 500){
+                    val.html_body = val.html_body.substring(0,499) + "...";
                 }
                 else{
                     val.description_short = val.body;
