@@ -1081,7 +1081,8 @@ a.btn-prime {
     top: 81%;
     height: 100%;
     opacity: .5;  
-    transition: 0.5s ease-in-out;
+    transition: mouseenter 0.5s ease-in-out;
+    transition: mouseleave 0.5s ease-in-out;
 }
 
 .feature_image:hover + .long_feature_label {
