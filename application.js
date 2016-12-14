@@ -4,8 +4,8 @@ function init() {
     $("#brand_select").prepend("<option disabled selected>Brands</option>");
     
     $("#brand_select").on('change', function() {            
-        if ($(this).val() != ""){
-            window.location.href = "/stores/"+$(this).val();    
+        if ($("#brand_select option:selected").val() != ""){
+            window.location.href = "/stores/"+$("#brand_select option:selected").val();    
         }
     });        
             
