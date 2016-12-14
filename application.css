@@ -1089,7 +1089,7 @@ a.btn-prime {
     transition: 1s ease-in-out;
 }
 
-.feature_image + .long_feature_box .feature_label:hover {
+.feature_image + .long_feature_label:hover {
     top: 0%;
     transition: 1s ease-in-out;
 }
