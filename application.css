@@ -1025,7 +1025,7 @@ a.btn-prime {
 }
 
 .feature_label {
-    margin:0px;
+    margin: 0;
     color: white;
     padding: 5px 10px 0;    
     background-color: transparent;
@@ -1078,7 +1078,7 @@ a.btn-prime {
 
 .long_feature_box .feature_label{
     position: absolute;
-    top: 81%;
+    // top: 81%;
     height: 100%;
     opacity: .5;    
 }
