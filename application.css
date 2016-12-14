@@ -1081,7 +1081,7 @@ a.btn-prime {
     top: 81%;
     height: 100%;
     opacity: .5;  
-    transition: 0.5s ease-in-out;
+    // transition: 0.5s ease-in-out;
 }
 
 // .long_feature_label:hover {
@@ -1091,7 +1091,7 @@ a.btn-prime {
 
 .feature_image:hover + .long_feature_label {
     top: 0%;
-    // transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .long_feature_box .feature_label label{
