@@ -1869,8 +1869,8 @@ td.stores_pin{
     }
     
     .main_content {
-        margin-left: -5px;
-        margin-right: -5px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .img_container {
         margin-bottom: 10px;
@@ -1885,8 +1885,8 @@ td.stores_pin{
     }
     
     .feature_links {
-        margin-left: -5px;
-        margin-right: -5px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .right_box{
         width: 100%;
