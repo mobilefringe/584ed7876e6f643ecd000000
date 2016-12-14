@@ -1083,11 +1083,6 @@ a.btn-prime {
     opacity: .5;  
 }
 
-// .feature_image:hover + .long_feature_label {
-//     top: 0%;
-//     // transition: 0.5s ease-in-out;
-// }
-
 .long_feature_box .feature_label label{
     font-family: inherit;
     font-size:1em;
