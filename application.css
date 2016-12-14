@@ -1084,10 +1084,10 @@ a.btn-prime {
     transition: 1s ease-in-out;
 }
 
-.long_feature_label:hover {
-    top: 0%;
-    transition: 1s ease-in-out;
-}
+// .long_feature_label:hover {
+//     top: 0%;
+//     transition: 1s ease-in-out;
+// }
 
 .feature_image:hover + .long_feature_label {
     top: 0%;
