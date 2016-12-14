@@ -19,7 +19,7 @@ function init() {
     
     $("#brand_select").change(function() {       
             if ($(this).val() != ""){
-                window.location.href = "/stores/"+$(this).val();    
+                window.location = "/stores/"+$(this).val();    
             }
         }); 
     renderHomeHours();
