@@ -1080,7 +1080,8 @@ a.btn-prime {
     position: absolute;
     top: 81%;
     height: 100%;
-    opacity: .5;    
+    opacity: .5;  
+    transition: 1s ease-in-out;
 }
 
 // .long_feature_box .feature_label:hover {
@@ -1090,7 +1091,7 @@ a.btn-prime {
 // }
 .long_feature_box img:hover + .long_feature_box.feature_label {
     top: 0%;
-    transition: 1s ease-in-out;
+    
     
 }
 .long_feature_box .feature_label label{
