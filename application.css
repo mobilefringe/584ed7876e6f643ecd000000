@@ -805,16 +805,16 @@ a.btn-prime {
 }
 
 .btn-secondary {
-    background-color: #fff;
-    background-image:url("//www.mallmaverick.com/primary_nav_images/original/missing.png");
+    // background-color: #fff;
+    // background-image:url("//www.mallmaverick.com/primary_nav_images/original/missing.png");
     color: #000;
     font-family: inherit;
     margin: 2px;
-    border-radius: 4px;
+    // border-radius: 4px;
     height: 36px;
     border: none;
-    background-repeat: repeat-x;
-    background-size: 100% 100%;
+    // background-repeat: repeat-x;
+    // background-size: 100% 100%;
     font-size: 14pt;
     font-weight: bold;
 }
