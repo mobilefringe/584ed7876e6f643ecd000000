@@ -805,7 +805,7 @@ a.btn-prime {
 }
 
 .btn-secondary {
-    // background-color: #fff;
+    background-color: transparent;
     // background-image:url("//www.mallmaverick.com/primary_nav_images/original/missing.png");
     color: #000;
     font-family: inherit;
