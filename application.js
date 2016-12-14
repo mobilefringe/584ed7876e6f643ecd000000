@@ -10,7 +10,7 @@ function init() {
     // });  
     
     $("#brand_select").bind("change", function(e) {
-        if ($(this).val() != ""){
+        if ($("#brand_select option:selected").val() != ""){
             window.location = "/stores/"+ $(this).val();    
         }
     });          
