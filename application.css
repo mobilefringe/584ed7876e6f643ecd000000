@@ -1085,7 +1085,7 @@ a.btn-prime {
 
 .long_feature_box .feature_label:hover {
     top: 0%;
-    transition: 1s;
+    transition: 1s ease-in-out;
     
 }
 .long_feature_box .feature_label label{
