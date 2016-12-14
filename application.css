@@ -1372,7 +1372,7 @@ hr{
 }
 /************** lightbox *************/
 .lightbox {
-    max-width: 90%;
+    // max-width: 90%;
     background-color: transparent;
     text-align: center;
     line-height: 0;
