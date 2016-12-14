@@ -1962,6 +1962,9 @@ td.stores_pin{
         margin-left: 0;
         margin-right: 0;
     }
+    #lightbox {
+        max-width: 90%;
+    }
     .alphabet_bg .btn-secondary{
         text-align: left;
         height: auto;
