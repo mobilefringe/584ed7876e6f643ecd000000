@@ -1024,7 +1024,7 @@ a.btn-prime {
     font-family:futura_condensed;
 }
 
-.feature_label {
+.feature_label, .long_feature_label {
     margin: 0;
     color: white;
     padding: 5px 10px 0;    
