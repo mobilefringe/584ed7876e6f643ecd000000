@@ -1392,8 +1392,11 @@ hr{
     background-color: transparent;
 }
 
-#lightbox .lb-outer-container .lb-container .lb-image {
+#lightbox .lb-outer-container .lb-container {
     max-width: 100%;
+}
+#lightbox .lb-outer-container .lb-container .lb-image {
+    // max-width: 100%;
 }
 
 /************** map *************/
