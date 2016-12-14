@@ -5,7 +5,7 @@ function init() {
     
     $("#brand_select").on('change', function() {            
         if ($("#brand_select option:selected").val() != ""){
-            window.location.href = "/stores/"+$("#brand_select option:selected").val();    
+            window.location = "/stores/"+$("#brand_select option:selected").val();    
         }
     });        
             
