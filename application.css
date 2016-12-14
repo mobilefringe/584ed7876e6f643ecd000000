@@ -1083,8 +1083,7 @@ a.btn-prime {
     opacity: .5;    
 }
 
-.long_feature_box .feature_label:hover,
-.long_feature_box .feature_label img:hover{
+.long_feature_box .feature_label img:hover + .long_feature_box .feature_label {
     top: 0%;
     
 }
