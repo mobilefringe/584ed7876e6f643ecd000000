@@ -1090,7 +1090,7 @@ a.btn-prime {
     
 }
 
-.long_feature_box img:hover + .long_feature_box .feature_label {
+.feature_box.feature_image:hover + .long_feature_box .feature_label {
     top: 0%;
 }
 
