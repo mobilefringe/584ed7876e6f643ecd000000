@@ -282,7 +282,7 @@
                                 <div class="feature_label">
                                     <p></p>
                                 </div>
-                                <img alt="" src="{{image_url}}">
+                                <img class="feature_image" alt="" src="{{image_url}}">
                             </a>
                         </div>
                     </div> 
