@@ -1076,7 +1076,7 @@ a.btn-prime {
 }
 
 
-.long_feature_box .feature_label{
+.long_feature_box.feature_label{
     position: absolute;
     top: 81%;
     height: 100%;
