@@ -13,7 +13,15 @@ function init() {
         if ($("#brand_select option:selected").val() != ""){
             window.location = "/stores/"+ $("#brand_select option:selected").val();    
         }
-    });          
+    });  
+    
+    
+    
+    $("#brand_select").change(function() {       
+            if ($(this).val() != ""){
+                window.location.href = "/stores/"+$(this).val();    
+            }
+        }); 
     renderHomeHours();
     
     var feature_items = getFeatureList();
