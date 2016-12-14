@@ -29,6 +29,16 @@ function init() {
         _fbq.push(['addPixelId', '548352815262916']);
     window._fbq = window._fbq || [];
     window._fbq.push(['track', 'PixelInitialized', {}]);
+    
+    $(".long_feature_box").hover(function() {
+        $(this).find(".long_feature_label").animate({
+            "top": "-=81%"
+        }, 500)
+    }, function() {
+        $(this).find(".long_feature_label").animate({
+            "top": "+=81%"
+        }, 500)
+    });
 }
 
       
