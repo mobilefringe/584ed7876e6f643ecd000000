@@ -1090,9 +1090,9 @@ a.btn-prime {
     
 }
 
-// .feature_box img:hover + .long_feature_box .feature_label {
-//     top: 0%;
-// }
+.long_feature_box img:hover + .long_feature_box .feature_label {
+    top: 0%;
+}
 
 .long_feature_box .feature_label label{
     font-family: inherit;
