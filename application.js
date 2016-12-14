@@ -17,6 +17,7 @@ function init() {
     
     var telephone_number = getPropertyDetails();
     console.log(telephone_number);
+    renderGeneral("#phone_container", "#phone_template", telephone_number);
     
     renderHomeHours();
     
