@@ -1395,9 +1395,7 @@ hr{
 #lightbox .lb-outer-container .lb-container {
     max-width: 100%;
 }
-#lightbox img {
-    max-width: 100%;
-}
+
 
 /************** map *************/
 .map {
