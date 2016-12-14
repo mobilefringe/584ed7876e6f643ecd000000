@@ -1963,6 +1963,7 @@ td.stores_pin{
         margin-right: 0;
     }
     #lightbox {
+        margin: 0 auto;
         max-width: 90%;
     }
     .alphabet_bg .btn-secondary{
