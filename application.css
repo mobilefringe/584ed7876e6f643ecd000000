@@ -2272,7 +2272,7 @@ td.stores_pin{
     overflow:hidden;
 }
 
-.feature_label {
+.feature_label, .long_feature_label {
     background-color: #000000;
 }
 
