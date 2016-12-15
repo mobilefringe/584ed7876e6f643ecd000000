@@ -249,13 +249,13 @@
                                     <script id="phone_template" type="x-tmpl-mustache/text">
                                         {%raw%}
                                         <span class="hour_info hidden-xs">{{contact_phone}}</span>
-                                        {%endraw%}
                                         <span class="hour_info visible-xs-inline-block">
-                                            <a href="tel:{{contact_phone}}">{{contact_phone}}</a>    
+                                            <a href="tel:(250) 374.3400">(250) 374.3400</a>    
                                         </span>
-                                         
-                                    </script>    
+                                        {%endraw%}
+                                    </script>
                                 </div>
+                                
                             </div>
                             <a href="/hours" class="check_hours">Check Holiday Hours</a>
                         </div>
