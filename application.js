@@ -15,9 +15,9 @@ function init() {
     //     }
     // });  
     
-    var telephone_number = getPropertyDetails();
-    console.log(telephone_number);
-    renderGeneral("#phone_container", "#phone_template", telephone_number);
+    var phone_number = getPropertyDetails();
+    console.log(phone_number);
+    renderGeneral("#phone_container", "#phone_template", phone_number);
     
     renderHomeHours();
     
