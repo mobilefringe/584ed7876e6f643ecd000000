@@ -7,13 +7,13 @@
 	</select>
 	<div id="parent_div">
 		<div id="zoom_container"  >
-			<img alt="Aberdeen_directory_map_for_web" id="map_image" src=""/>
+			<img alt="Store Directory Map" id="map_image" src=""/>
 			<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>
 		</div>
 	</div>
 </div>
 <div class="mobile_line_break"></div>
-<script src="//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
+<!--<script src="//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>-->
 <script>
     $(document).ready(function(e){
         init(e);
