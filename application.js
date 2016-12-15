@@ -14,11 +14,7 @@ function init() {
     //         window.location = "/stores/"+ $("#brand_select option:selected").val();    
     //     }
     // });  
-    
-    var phone_number = getPropertyDetails();
-    console.log(phone_number);
-    renderGeneral("#phone_container", "#phone_template", phone_number);
-    
+
     renderHomeHours();
     
     var feature_items = getFeatureList();
