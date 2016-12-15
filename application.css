@@ -2099,12 +2099,9 @@ td.stores_pin{
     margin: -4px 0 0;    
 }
 
-// .feature_label{
-//     background-color:transparent !important;
-// }
-
+/* ***Property CSS *** */
 .brand_nav{
-      position: relative;
+    position: relative;
     background-color: #3D441E;
 }
 
@@ -2121,12 +2118,7 @@ td.stores_pin{
 }
 .store_details h1.store_page {
     padding-top: 10px;
-    
 }
-
-// .feature_label{
-//     background-color: #A89968;
-// }
 
 .stores_table_headers {
     padding-top: 6px;
@@ -2157,12 +2149,8 @@ td.stores_pin{
     color: #808080;    
 }
 
-// #site_nav li button:focus{
-//     background-color: #e5f5fd;
-// }
 
-#site_nav ul li ul li a:hover
-{
+#site_nav ul li ul li a:hover {
     background: #e5f5fd; 
 }
 
@@ -2183,10 +2171,6 @@ td.stores_pin{
 .store_btn:hover {
     text-decoration: none;
 }
-
-// .nav_sitemap_item:nth-child(5){
-//     margin-bottom: 90px;
-// }
 
 .blog-post .meta{
     padding-left: 30px;
@@ -2239,10 +2223,6 @@ td.stores_pin{
     height:249px;
     overflow:hidden
 }
-
-// .feature_label{
-//     background-color:transparent !important;
-// }
 
 .brand_nav{
     background-color: #000000;
