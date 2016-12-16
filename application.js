@@ -3,17 +3,17 @@ function init() {
     renderStoreList('#brand_select','#brand_select_template', header_stores, "stores");
     $("#brand_select").prepend("<option disabled selected>Brands</option>");
     
-    $("#brand_select").on('change', function() {            
-        if ($(this).val() != ""){
-            window.location = "/stores/"+ $(this).val();    
-        }
-    });  
-    
     // $("#brand_select").on('change', function() {            
-    //     if ($("#brand_select option:selected").val() != ""){
-    //         window.location = "/stores/" + $("#brand_select option:selected").val();    
+    //     if ($(this).val() != ""){
+    //         window.location = "/stores/"+ $(this).val();    
     //     }
-    // });
+    // });  
+    
+    $("#brand_select").on('change', function() {            
+        if ($("#brand_select option:selected").val() != ""){
+            window.location = "/stores/" + $("#brand_select option:selected").val();    
+        }
+    });
     // $("#brand_select").bind("change", function(e) {
     //     if ($("#brand_select option:selected").val() != ""){
     //         window.location = "/stores/"+ $("#brand_select option:selected").val();    
