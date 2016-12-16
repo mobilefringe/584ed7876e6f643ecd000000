@@ -145,7 +145,7 @@
                                     <select id="brand_select">
                                         <script id="brand_select_template" type="x-tmpl-mustache/text">
                                             {%raw%}
-                                            <option value="{{slug}}" data-value="{{name}}">{{name}}</option>
+                                            <option value="{{slug}}">{{name}}</option>
                                             {%endraw%}
                                         </script>
                                     </select>
