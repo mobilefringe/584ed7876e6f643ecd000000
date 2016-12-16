@@ -8,7 +8,12 @@ function init() {
             window.location = "/stores/"+ $(this).val();    
         }
     });  
-
+    
+    // $("#brand_select").on('change', function() {            
+    //     if ($("#brand_select option:selected").val() != ""){
+    //         window.location = "/stores/" + $("#brand_select option:selected").val();    
+    //     }
+    // });
     // $("#brand_select").bind("change", function(e) {
     //     if ($("#brand_select option:selected").val() != ""){
     //         window.location = "/stores/"+ $("#brand_select option:selected").val();    
