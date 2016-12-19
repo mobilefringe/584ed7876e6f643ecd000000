@@ -73,7 +73,7 @@
 </div>
 <script>
     $(document).ready(function(e){
-        init(e);
+        // init(e);
         function renderAll(){
             var jobs = getJobsList();
             var mall_published_jobs = [];
