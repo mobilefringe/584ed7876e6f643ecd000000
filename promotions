@@ -25,7 +25,7 @@
         <div class="line_break">&nbsp;</div>
         <h1 class="page_title" id="store_promos">Store Promotions</h1>
         <hr>
-        <h3 id="store_promos" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>
+        <h3 id="store_promo" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>
         <div id="store_promo_container"> 
             <script id="store_promo_template" type="x-tmpl-mustache/text">
                 <div class="row-fluid store_promo">
@@ -53,7 +53,7 @@
 
 <script>
     $(document).ready(function(e){
-        init(e);
+        // init(e);
         function renderAll(){
             var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
             console.log(promotions);
@@ -84,10 +84,7 @@
                 renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
             }
             else{
-                $("#store_pomos").hide();
-            }
-            if(mall_published_promos.length > 0 && store_published_promos.length > 0) {
-                $('#no_promos').show()
+                $("#store_promo").show();
             }
         }
         loadMallDataCached(renderAll); 
