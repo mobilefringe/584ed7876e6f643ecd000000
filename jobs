@@ -90,10 +90,10 @@
                     val.store_name = getStoreDetailsByID(val.jobable_id).name;
                 }
             });
-            if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
-                // renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
-                // var sorted_store_jobs = store_published_jobs.sortBy(function(o){ return o.store_name});
-                // renderJobs('#store_jobs_container', '#store_jobs_template', sorted_store_jobs);
+            if(mall_published_jobs.length > 10 || store_published_jobs.length > 10 ){
+                renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
+                var sorted_store_jobs = store_published_jobs.sortBy(function(o){ return o.store_name});
+                renderJobs('#store_jobs_container', '#store_jobs_template', sorted_store_jobs);
             }
             else {
                 $('#no_jobs').show();
