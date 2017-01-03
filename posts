@@ -10,7 +10,7 @@
                 <p class="blogpost_content">{{body}}</p>
                 <a href='/posts/{{slug}}' class="readmore">Read More</a>
             </div>
-            <div class="line_break ">&nbsp;</div>
+            <div class="line_break"></div>
         </script>
     </div>
 </div>
