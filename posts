@@ -15,9 +15,9 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(e){
-        init(e);
+    $(document).ready(function(){
         function renderAll(){
+            init();
             var blog = getBlogDataBySlug('cornwall-main');
             console.log(blog);
             var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
