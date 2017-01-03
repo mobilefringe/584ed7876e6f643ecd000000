@@ -51,9 +51,9 @@
 </div>
 
 <script>
-    $(document).ready(function(e){
-        init(e);
+    $(document).ready(function(){
         function renderAll(){
+                init();
             var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
             console.log(promotions);
             var mall_published_promos = [];
