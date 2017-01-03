@@ -106,9 +106,9 @@
 </div> 
 <script src="//s3.amazonaws.com/kodekloud/sites/5841df6b6e6f640488010000/text/javascript/1479491696000/craftmap.js"></script>
 <script>
-    $(document).ready(function(e){
-        init(e);
+    $(document).ready(function(){
         function renderAll(){
+            init();
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
