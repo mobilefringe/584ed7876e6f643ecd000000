@@ -19,10 +19,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="line_break">&nbsp;</div>
+                <div class="line_break"></div>
             </script>
         </div>
-        <div class="line_break">&nbsp;</div>
+        <div class="line_break"></div>
         <h1 class="page_title" id="store_promos">Store Promotions</h1>
         <hr>
         <h3 id="store_promo" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>
@@ -43,10 +43,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="line_break">&nbsp;</div>
+                <div class="line_break"></div>
             </script>
         </div>
-        <div class="line_break">&nbsp;</div>
+        <div class="line_break"></div>
     </div>
 </div>
 
