@@ -14,7 +14,7 @@
 </div>
 <div class="mobile_line_break"></div>
 <script>
-    $(document).ready(function(e){
+    $(document).ready(function(){
         
         function renderAll(){
             var stores = getStoresList();
@@ -42,6 +42,6 @@
         	show_png_pin(".mapper", "#map_image");
         }
         loadMallDataCached(renderAll);
-        init(e);
+        init();
     })
 </script>
