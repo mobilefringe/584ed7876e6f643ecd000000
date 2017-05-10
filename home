@@ -73,17 +73,10 @@ $(document).ready(function(){
         });
         
         $(".btn-success").click(function(){    
+            
             subscribe_email_popup();
         });
-        
-        // $(".popup_bg").click(function(event){            
-        //     if( !$( event.target).is('.popup_newsletter') ) {
-        //         $(".popup_bg").fadeOut();
-        //     } else {
-        //         event.stopPropagation();
-        //     }
-        // });
-            
+
         function validate_pop_up(){
             if($('#subscribe_newsletter_popup').is(":checked"))
             return true;
@@ -92,8 +85,9 @@ $(document).ready(function(){
                 return false;
             }
         }
-    
+
         function subscribe_email_popup(){ 
+            validate_pop_up();
             if (isValidEmailAddress($("#subscribe_email_popup").val())){   
                 var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
                 var data = {}
