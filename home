@@ -86,7 +86,8 @@ $(document).ready(function(){
             }
         }
 
-        function subscribe_email_popup(){ 
+        function subscribe_email_popup(e){ 
+            e.preventDefault();
             if($('#subscribe_newsletter_popup').is(":checked")) {
                 if (isValidEmailAddress($("#subscribe_email_popup").val())){   
                     var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
