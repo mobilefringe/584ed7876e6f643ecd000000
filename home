@@ -52,6 +52,7 @@ $(document).ready(function(){
             animation: "slide",
         });
         
+        // *** POP UP *** //
         // if($.cookie("popup_viewed") != "true"){
         //     $.cookie("popup_viewed", "true", { expires: 1 });
             var popup = getPopups()[0];
@@ -66,33 +67,13 @@ $(document).ready(function(){
             $(".modal-backdrop").remove();
 	        $(".popup_home").remove();
         })
-        
-        
-        
-        // *** POP UP *** //
-        $("#success_subscribe_popup").hide();
             
         $(".popup_close").click(function(){
             $(".popup_bg").fadeOut();
         });
         
-        var popup = getPopups()[0];
-        var popup_url = getImageURL(popup.photo_url);
-        console.log(popup_url);
-        $(".mfp-content").css({"backgroundImage": popup_url});
-        
-        var toc_show_popup = $.cookie("toc_show_popup");
-        if (toc_show_popup == null) {
-            
-            $(".popup_newsletter .subscribe p").show();
-            $(".popup_bg").show();            
-        }
-        $("#hide_popup").click(function(){
-            if ($(this).is(":checked")){
-                $(".popup_bg").fadeOut();    
-                $.cookie('toc_show_popup', 'yes'); 
-                $.cookie('toc_show_popup', 'yes', { expires: 1, path: '/' });        
-            }
+        $(".btn-success").click(function(){    
+            subscribe_email_popup();
         });
         
         $(".popup_bg").click(function(event){            
@@ -107,9 +88,7 @@ $(document).ready(function(){
             event.stopPropagation();
         });
     
-        $("#popup_btn").click(function(){    
-            subscribe_email_popup();
-        });
+        
         
         function validate_pop_up(){
             if($('#subscribe_newsletter_popup').is(":checked"))
