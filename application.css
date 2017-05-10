@@ -11,6 +11,16 @@
 .popup_home {
     max-width: 550px;
     position: relative;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .pop_up_container{
     width:550px; 
