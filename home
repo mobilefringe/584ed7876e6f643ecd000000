@@ -55,6 +55,8 @@ $(document).ready(function(){
             $(".popup_bg").fadeOut();
         });
         
+        var popup = getPopups().[0];
+        console.log(popup);
         var toc_show_popup = $.cookie("toc_show_popup");
         if (toc_show_popup == null) {
             $(".popup_newsletter .subscribe p").show();
