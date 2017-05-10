@@ -27,35 +27,6 @@
     <i class="fa fa-remove close_popup"></i>
 </div>
 
-
-<!--<div class="popup_bg"> -->
-<!--    <div class="mfp-content">-->
-<!--        <div class="homepop_up_container">-->
-<!--            <div class="pop_up_form_container">-->
-<!--                <div class="pop_up_form">-->
-<!--                    <h4 class="popup_header1">JOIN OUR NEWSLETTER</h4>-->
-<!--                    <form method="post" action ="http://mobilefringe.createsend.com/t/d/s/ykouu/"  onsubmit="return validate_pop_up()">-->
-<!--                        <label for="name_pop_up">Name</label>-->
-<!--                        <input id="name_pop_up" type="text" name=cm-name>-->
-                        
-<!--                        <label for="email_pop_up">Email</label>-->
-<!--                        <input id="email_pop_up" type="text" name=cm-ykouu-ykouu>-->
-                        
-<!--                        <label for="postal_pop_up" >Postal Code</label>-->
-<!--                        <input id="postal_pop_up" type="text" name=cm-f-ydltut>-->
-                        
-<!--                        <label>-->
-<!--                            <input id="subscribe_newsletter_popup" type="checkbox">Subscribe to receive newsletters from Cornwall Centre-->
-<!--                        </label>-->
-<!--                        <br /> -->
-<!--                        <input class="btn btn-success" value = "Submit" type="submit">-->
-<!--                    </form>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
 <div class="flexslider trim_screen">
     <ul class="slides" id="home_banner">            
         <script id="home_banner_template" type="x-tmpl-mustache/text">
@@ -81,8 +52,8 @@ $(document).ready(function(){
             animation: "slide",
         });
         
-        if($.cookie("popup_viewed") != "true"){
-            $.cookie("popup_viewed", "true", { expires: 1 });
+        // if($.cookie("popup_viewed") != "true"){
+        //     $.cookie("popup_viewed", "true", { expires: 1 });
             var popup = getPopups()[0];
             if (popup != undefined){
                 $('.popup_home a').attr('href', popup.photo_link)
@@ -90,7 +61,7 @@ $(document).ready(function(){
                 $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                 $('.popup_home').show()
             }
-        }
+        // }
         $('.close_popup, .custom_backdrop').click(function(){
             $(".modal-backdrop").remove();
 	        $(".popup_home").remove();
