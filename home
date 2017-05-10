@@ -60,9 +60,10 @@ $(document).ready(function(){
         var popup = getPopups()[0];
         var popup_url = getImageURL(popup.photo_url);
         console.log(popup_url);
+        $(".mfp-content").css("background-image:", popup_url);
         var toc_show_popup = $.cookie("toc_show_popup");
         if (toc_show_popup == null) {
-            $(".mfp-content").css("background-image:", popup_url)
+            
             $(".popup_newsletter .subscribe p").show();
             $(".popup_bg").show();            
         }
