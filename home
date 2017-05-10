@@ -56,7 +56,8 @@ $(document).ready(function(){
         });
         
         var popup = getPopups()[0];
-        console.log(popup);
+        var popup_url = getImageURL(popup.photo_url);
+        console.log(popup_url);
         var toc_show_popup = $.cookie("toc_show_popup");
         if (toc_show_popup == null) {
             $(".popup_newsletter .subscribe p").show();
