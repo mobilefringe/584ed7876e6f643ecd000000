@@ -37,12 +37,13 @@
 	
 }
 .pop_up_form{
-	width: 80%;
+	width: 75%;
 	margin: 0px auto;
 	padding-top: 44px;
 }
-.pop_up_form > h4{
-	margin: 0px
+.pop_up_form h4{
+	margin: 0px;
+	font-size: 16px;
 }
 .pop_up_form input[type="checkbox"]{
     margin-top: -2px;
@@ -54,7 +55,8 @@
 	color: white;
 	margin-top: 10px;
 	margin-bottom: 2px;
-			}
+	font-size: 14px;
+}
 .pop_up_form form{
 	margin-top: 20px;
 }
