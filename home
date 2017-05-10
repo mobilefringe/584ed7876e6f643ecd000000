@@ -73,7 +73,6 @@ $(document).ready(function(){
         });
         
         $(".btn-success").click(function(){    
-            
             subscribe_email_popup();
         });
 
@@ -85,31 +84,25 @@ $(document).ready(function(){
                 return false;
             }
         }
-
-        function subscribe_email_popup(e){ 
-            e.preventDefault();
-            if($('#subscribe_newsletter_popup').is(":checked")) {
-                if (isValidEmailAddress($("#subscribe_email_popup").val())){   
-                    var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
-                    var data = {}
-                    data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
-                    data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
-                    $.getJSON(
-                        action + "?callback=?",
-                        data,
-                        function (data) {
-                            if (data.Status === 400) {
-                                alert("Veuillez essayer de nouveau s’il vous plaît.");
-                            } else { // 200
-                                $("#success_subscribe_popup").fadeIn();
-                            }
-                    });    
-                } else {
-                    alert("Veuillez entrez un courriel valide.")
-                }
-            } else{
-                alert("Please check the 'Subscribe to recieve newsletter' checkbox")
-                return false;
+    
+        function subscribe_email_popup(){ 
+            if (isValidEmailAddress($("#subscribe_email_popup").val())){   
+                var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
+                var data = {}
+                data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
+                data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
+                $.getJSON(
+                    action + "?callback=?",
+                    data,
+                    function (data) {
+                        if (data.Status === 400) {
+                            alert("Veuillez essayer de nouveau s’il vous plaît.");
+                        } else { // 200
+                            $("#success_subscribe_popup").fadeIn();
+                        }
+                });    
+            } else {
+                alert("Veuillez entrez un courriel valide.")
             }
         }
     }
