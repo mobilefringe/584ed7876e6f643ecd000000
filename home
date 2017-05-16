@@ -54,8 +54,8 @@ $(document).ready(function(){
         // *** POP UP *** //
         var window_width = $( window ).width();
         if (window_width > 769) {
-            // if($.cookie("popup_viewed") != "true"){
-            //     $.cookie("popup_viewed", "true", { expires: 1 });
+            if($.cookie("popup_viewed") != "true"){
+                $.cookie("popup_viewed", "true", { expires: 1 });
                 var popup = getPopups()[0];
                 if (popup != undefined){
                     $('.popup_home a').attr('href', popup.photo_link)
@@ -63,7 +63,7 @@ $(document).ready(function(){
                     $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                     $('.popup_home').show()
                 }
-            // }
+            }
         }
         
         $('.close_popup, .custom_backdrop').click(function(){
@@ -75,27 +75,21 @@ $(document).ready(function(){
             $(".popup_bg").fadeOut();
         });
         
-        $(".btn-success").click(function(e){
-            e.preventDefault();
-            if ($("#email_pop_up").val() != ""){   
-                validate_pop_up();
-            } else {
-                alert("Please enter your email address.");
-                return false;
-            }
+        $(".btn-success").click(function(){    
+            subscribe_email_popup();
         });
 
         function validate_pop_up(){
-            if($('#subscribe_newsletter_popup').is(":checked")) {
-                subscribe_email_popup();
-            } else {
-                alert("Please check the 'Subscribe to recieve newsletter' checkbox");
+            if($('#subscribe_newsletter_popup').is(":checked"))
+            return true;
+            else{
+                alert("Please check the 'Subscribe to recieve newsletter' checkbox")
                 return false;
             }
         }
     
         function subscribe_email_popup(){ 
-            if ($("#subscribe_email_popup").val() != ""){   
+            if (isValidEmailAddress($("#subscribe_email_popup").val())){   
                 var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
                 var data = {}
                 data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
@@ -105,13 +99,13 @@ $(document).ready(function(){
                     data,
                     function (data) {
                         if (data.Status === 400) {
-                            alert("Please try again.");
+                            alert("Veuillez essayer de nouveau s’il vous plaît.");
                         } else { // 200
                             $("#success_subscribe_popup").fadeIn();
                         }
                 });    
             } else {
-                alert("Please enter a valid email address.")
+                alert("Veuillez entrez un courriel valide.")
             }
         }
     }
