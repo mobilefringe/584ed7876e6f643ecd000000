@@ -76,7 +76,7 @@ $(document).ready(function(){
         });
         
         $(".btn-success").click(function(){    
-            subscribe_email_popup();
+            validate_pop_up();
         });
 
         function validate_pop_up(){
