@@ -113,8 +113,10 @@ $(document).ready(function(){
         // }
     
         function subscribe_email_popup(){ 
-            if($('#subscribe_newsletter_popup').is(":checked")) {
-                if (isValidEmailAddress($("#subscribe_email_popup").val())){   
+            if (isValidEmailAddress($("#subscribe_email_popup").val())){  
+            
+                if($('#subscribe_newsletter_popup').is(":checked")) {
+                 
                     var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
                     var data = {}
                     data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
@@ -130,11 +132,12 @@ $(document).ready(function(){
                             }
                     });    
                 } else {
-                    alert("Please enter a valid email address.")
+                    alert("Please check the 'Subscribe to recieve newsletter' checkbox")
+                    return false;
+                    
                 }
             } else {
-                alert("Please check the 'Subscribe to recieve newsletter' checkbox")
-                return false;
+                alert("Please enter a valid email address.")
             }
         }
     
