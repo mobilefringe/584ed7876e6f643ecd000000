@@ -85,7 +85,6 @@ $(document).ready(function(){
         $('#popup_form').submit(function (e) {
             if ($("#subscribe_newsletter_popup").prop("checked") != true){
                 alert("Please agree to the term and conditions.");
-                $("#agree_terms").focus();
                 return false;
             }
             e.preventDefault();
