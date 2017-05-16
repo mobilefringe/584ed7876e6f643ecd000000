@@ -133,7 +133,6 @@ $(document).ready(function(){
                     });    
                 } else {
                     alert("Please check the 'Subscribe to recieve newsletter' checkbox")
-                    return false;
                     
                 }
             } else {
