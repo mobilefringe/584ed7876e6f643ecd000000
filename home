@@ -77,7 +77,7 @@ $(document).ready(function(){
         
         $(".btn-success").click(function(e){
             e.preventDefault();
-            if ($("#subscribe_email_popup").val() != ""){   
+            if ($("#email_pop_up").val() != ""){   
                 validate_pop_up();
             } else {
                 alert("Please enter your email address.");
