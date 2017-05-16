@@ -82,10 +82,9 @@ $(document).ready(function(){
 
         function validate_pop_up(e){
             if($('#subscribe_newsletter_popup').is(":checked")) {
-                return true;
                 subscribe_email_popup();
             } else {
-                alert("Please check the 'Subscribe to recieve newsletter' checkbox")
+                alert("Please check the 'Subscribe to recieve newsletter' checkbox");
                 return false;
             }
         }
