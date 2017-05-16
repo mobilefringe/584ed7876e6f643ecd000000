@@ -75,6 +75,13 @@ $(document).ready(function(){
             $(".popup_bg").fadeOut();
         });
         
+        $('#popup_form').submit(function(e){
+            e.preventDefault();
+            $('.btn-success').prop('disabled', true);
+            submit_contest(slug);
+        });
+            
+            
         $(".btn-success").click(function(e){ 
             if($('#email_pop_up').val() != "") {
                 return true;
