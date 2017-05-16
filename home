@@ -77,7 +77,7 @@ $(document).ready(function(){
         
         $('#popup_form').submit(function(e){
             e.preventDefault();
-            $('.btn-success').prop('disabled', true);
+            // $('.btn-success').prop('disabled', true);
             validate_email_address();
         });
             
