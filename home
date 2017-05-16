@@ -4,21 +4,23 @@
         <div class="pop_up_form_container">
             <div class="pop_up_form">
                 <h4 class="popup_header1">JOIN OUR NEWSLETTER</h4>
-                <form method="post" action="//mobilefringe.createsend.com/t/d/s/ykouu/" id="popup_form">
-                    <label for="name_pop_up">Name</label>
-                    <input id="name_pop_up" type="text" name=cm-name>
-                    
-                    <label for="email_pop_up">Email</label>
-                    <input id="email_pop_up" type="text" name=cm-ykouu-ykouu>
-                    
-                    <label for="postal_pop_up" >Postal Code</label>
-                    <input id="postal_pop_up" type="text" name=cm-f-ydltut>
-                    
-                    <label>
-                        <input id="subscribe_newsletter_popup" type="checkbox">Subscribe to receive newsletters from Cornwall Centre
-                    </label>
-                    <br /> 
-                    <input class="btn btn-success" value ="Submit" type="submit">
+                <form action=//mobilefringe.createsend.com/t/d/s/ykouu/ method="post" id="subForm">
+                    <label for="newsletter_box_id">
+                        <i class="fa fa-envelope social_icon" aria-hidden="true"></i>
+                        SUBSCRIBE AND GET UPDATES
+                    </label>                
+                    <span>
+                        Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
+                    </span>
+                    <label for="fieldEmail" style="display:none"> subscribe email </label>
+                    <input id="fieldEmail" name=cm-ykouu-ykouu type="email" required placeholder="Your Email" />  
+                    <span>
+                        <label style="display:none" for="agree_terms">Subscribe</label>
+                        <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Cornwall Centre
+                    </span>
+                    <button class="btn"/>Subscribe</button>                      
+                    <br/>
+                    <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                 </form>
             </div>
         </div>
@@ -81,55 +83,55 @@ $(document).ready(function(){
         //     subscribe_email_popup();
         // });
             
-        //PopUp Form Sign Up
-        $('#popup_form').submit(function (e) {
-            if ($("#subscribe_newsletter_popup").prop("checked") != true){
-                alert("Please agree to the term and conditions.");
-                return false;
-            }
-            e.preventDefault();
-            $.getJSON(
-                this.action + "?callback=?",
-                $(this).serialize(),
-                function (data) {
-                    if (data.Status === 400) {
-                        alert("Please try again later.");
-                    } else { // 200
-                        $('#subForm').trigger('reset');
-                        $("#success_subscribe").fadeIn();
+        // //PopUp Form Sign Up
+        // $('#popup_form').submit(function (e) {
+        //     if ($("#subscribe_newsletter_popup").prop("checked") != true){
+        //         alert("Please agree to the term and conditions.");
+        //         return false;
+        //     }
+        //     e.preventDefault();
+        //     $.getJSON(
+        //         this.action + "?callback=?",
+        //         $(this).serialize(),
+        //         function (data) {
+        //             if (data.Status === 400) {
+        //                 alert("Please try again later.");
+        //             } else { // 200
+        //                 $('#subForm').trigger('reset');
+        //                 $("#success_subscribe").fadeIn();
                         
-                    }
-            });
-        });    
+        //             }
+        //     });
+        // });    
 
     
-        function subscribe_email_popup(){ 
-            if (isValidEmailAddress($("#subscribe_email_popup").val())){  
+        // function subscribe_email_popup(){ 
+        //     if (isValidEmailAddress($("#subscribe_email_popup").val())){  
             
-                if($('#subscribe_newsletter_popup').is(":checked")) {
+        //         if($('#subscribe_newsletter_popup').is(":checked")) {
                  
-                    var action="//mobilefringe.createsend.com/t/d/s/ykblt/"
-                    var data = {}
-                    data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
-                    data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
-                    $.getJSON(
-                        action + "?callback=?",
-                        data,
-                        function (data) {
-                            if (data.Status === 400) {
-                                alert("Please try again.");
-                            } else { // 200
-                                $("#success_subscribe_popup").fadeIn();
-                            }
-                    });    
-                } else {
-                    alert("Please check the 'Subscribe to recieve newsletter' checkbox")
+        //             var action="//mobilefringe.createsend.com/t/d/s/ykblt/"
+        //             var data = {}
+        //             data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
+        //             data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
+        //             $.getJSON(
+        //                 action + "?callback=?",
+        //                 data,
+        //                 function (data) {
+        //                     if (data.Status === 400) {
+        //                         alert("Please try again.");
+        //                     } else { // 200
+        //                         $("#success_subscribe_popup").fadeIn();
+        //                     }
+        //             });    
+        //         } else {
+        //             alert("Please check the 'Subscribe to recieve newsletter' checkbox")
                     
-                }
-            } else {
-                alert("Please enter a valid email address.")
-            }
-        }
+        //         }
+        //     } else {
+        //         alert("Please enter a valid email address.")
+        //     }
+        // }
     
 
     
