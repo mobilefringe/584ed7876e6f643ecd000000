@@ -75,8 +75,7 @@ $(document).ready(function(){
             $(".popup_bg").fadeOut();
         });
         
-        $(".btn-success").click(function(e){   
-            e.preventDefault();
+        $(".btn-success").click(function(){   
             subscribe_email_popup();
         });
 
