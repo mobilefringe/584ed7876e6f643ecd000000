@@ -4,7 +4,7 @@
             <div class="pop_up_form_container">
                 <div class="pop_up_form">
                     <h4 class="popup_header1">JOIN OUR NEWSLETTER</h4>
-                    <form method="post" action ="//mobilefringe.createsend.com/t/d/s/ykouu/"  onsubmit="return validate_pop_up()">
+                    <form method="post" action ="//mobilefringe.createsend.com/t/d/s/ykouu/">
                         <label for="name_pop_up">Name</label>
                         <input id="name_pop_up" type="text" name=cm-name>
                         
