@@ -78,11 +78,21 @@ $(document).ready(function(){
         $('#popup_form').submit(function(e){
             e.preventDefault();
             $('.btn-success').prop('disabled', true);
-            submit_contest(slug);
+            validate_email_address();
         });
             
             
-        $(".btn-success").click(function(e){ 
+        // $(".btn-success").click(function(e){ 
+        //     if($('#email_pop_up').val() != "") {
+        //         return true;
+        //         validate_pop_up();
+        //     } else {
+        //         alert("Please enter your email address.")
+        //         return false;
+        //     }
+        // });
+
+        function validate_email_address(){
             if($('#email_pop_up').val() != "") {
                 return true;
                 validate_pop_up();
@@ -90,7 +100,7 @@ $(document).ready(function(){
                 alert("Please enter your email address.")
                 return false;
             }
-        });
+        }
 
         function validate_pop_up(){
             if($('#subscribe_newsletter_popup').is(":checked")) {
