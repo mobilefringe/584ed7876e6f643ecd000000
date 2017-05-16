@@ -75,11 +75,13 @@ $(document).ready(function(){
             $(".popup_bg").fadeOut();
         });
         
-        $(".btn-success").click(function(){    
+        $(".btn-success").click(function(e){
+            e.preventDefault();
             validate_pop_up();
         });
 
-        function validate_pop_up(){
+        function validate_pop_up(e){
+            e.preventDefault();
             if($('#subscribe_newsletter_popup').is(":checked")) {
                 return true;
                 subscribe_email_popup();
