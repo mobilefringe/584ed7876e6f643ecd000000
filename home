@@ -106,13 +106,13 @@ $(document).ready(function(){
                     data,
                     function (data) {
                         if (data.Status === 400) {
-                            alert("Veuillez essayer de nouveau s’il vous plaît.");
+                            alert("Please try again.");
                         } else { // 200
                             $("#success_subscribe_popup").fadeIn();
                         }
                 });    
             } else {
-                alert("Veuillez entrez un courriel valide.")
+                alert("Please enter a valid email address.")
             }
         }
     }
