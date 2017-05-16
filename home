@@ -75,7 +75,8 @@ $(document).ready(function(){
             $(".popup_bg").fadeOut();
         });
         
-        $(".btn-success").click(function(){    
+        $(".btn-success").click(function(e){ 
+            e.preventDefault();
             validate_pop_up();
         });
 
