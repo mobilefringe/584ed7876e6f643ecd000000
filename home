@@ -4,7 +4,7 @@
             <div class="pop_up_form_container">
                 <div class="pop_up_form">
                     <h4 class="popup_header1">JOIN OUR NEWSLETTER</h4>
-                    <form method="post" action ="http://mobilefringe.createsend.com/t/d/s/ykouu/"  onsubmit="return validate_pop_up()">
+                    <form method="post" action ="//mobilefringe.createsend.com/t/d/s/ykouu/"  onsubmit="return validate_pop_up()">
                         <label for="name_pop_up">Name</label>
                         <input id="name_pop_up" type="text" name=cm-name>
                         
@@ -18,7 +18,7 @@
                             <input id="subscribe_newsletter_popup" type="checkbox">Subscribe to receive newsletters from Cornwall Centre
                         </label>
                         <br /> 
-                        <input class="btn btn-success" value = "Submit" type="submit">
+                        <input class="btn btn-success" value ="Submit" type="submit">
                     </form>
                 </div>
             </div>
@@ -76,12 +76,13 @@ $(document).ready(function(){
         });
         
         $(".btn-success").click(function(){    
-            subscribe_email_popup();
+            validate_pop_up();
         });
 
         function validate_pop_up(){
             if($('#subscribe_newsletter_popup').is(":checked"))
             return true;
+            subscribe_email_popup();
             else{
                 alert("Please check the 'Subscribe to recieve newsletter' checkbox")
                 return false;
