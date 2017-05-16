@@ -81,7 +81,6 @@ $(document).ready(function(){
         });
 
         function validate_pop_up(e){
-            e.preventDefault();
             if($('#subscribe_newsletter_popup').is(":checked")) {
                 return true;
                 subscribe_email_popup();
