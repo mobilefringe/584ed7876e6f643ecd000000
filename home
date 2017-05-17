@@ -19,8 +19,10 @@
                         <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Cornwall Centre
                     </label>
                     <br /> 
-                    <button class="btn"/>Subscribe</button>
-                    <input class="btn btn-success" value ="Submit" type="submit">
+                    <button class="btn btn-success"/>Subscribe</button>
+                    <input class="btn " value ="Submit" type="submit">
+                    <br/>
+                    <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                 </form>
             </div>
         </div>
