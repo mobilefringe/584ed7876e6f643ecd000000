@@ -81,6 +81,8 @@ function init() {
                     $("#success_subscribe").fadeIn();
                 } else {
                     $("#success_subscribe").fadeIn();
+                    $(".modal-backdrop").remove();
+	                $(".popup_home").remove();
                 }
             }
         })
