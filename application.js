@@ -60,8 +60,11 @@ function init() {
                 } else { // 200
                     $('#subForm').trigger('reset');
                     $("#success_subscribe").fadeIn();
-                    $(".modal-backdrop").remove();
-	                $(".popup_home").remove();
+                    
+                    setTimeout(function(){ 
+                        $(".modal-backdrop").remove();
+	                    $(".popup_home").remove();
+                    }, 3000);
                 }
             });
     });
