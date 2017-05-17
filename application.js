@@ -64,7 +64,7 @@ function init() {
                     setTimeout(function(){ 
                         $(".modal-backdrop").remove();
 	                    $(".popup_home").remove();
-                    }, 3000);
+                    }, 2000);
                 }
             });
     });
