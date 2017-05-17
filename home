@@ -5,22 +5,22 @@
             <div class="pop_up_form">
                 <h4 class="popup_header1">JOIN OUR NEWSLETTER</h4>
                 <form action=//mobilefringe.createsend.com/t/d/s/ykouu/ method="post" id="subForm">
-                    <label for="newsletter_box_id">
-                        <i class="fa fa-envelope social_icon" aria-hidden="true"></i>
-                        SUBSCRIBE AND GET UPDATES
-                    </label>                
-                    <span>
-                        Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
-                    </span>
+                    <label for="name_pop_up">Name</label>
+                    <input id="name_pop_up" type="text" name=cm-name>
+                    
                     <label for="fieldEmail" style="display:none"> subscribe email </label>
-                    <input id="fieldEmail" name=cm-ykouu-ykouu type="email" required placeholder="Your Email" />  
-                    <span>
+                    <input id="fieldEmail" name=cm-ykouu-ykouu type="email" required placeholder="Your Email" />
+                    
+                    <label for="postal_pop_up" >Postal Code</label>
+                    <input id="postal_pop_up" type="text" name=cm-f-ydltut>
+                    
+                    <label>
                         <label style="display:none" for="agree_terms">Subscribe</label>
                         <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Cornwall Centre
-                    </span>
-                    <button class="btn"/>Subscribe</button>                      
-                    <br/>
-                    <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
+                    </label>
+                    <br /> 
+                    <button class="btn"/>Subscribe</button>
+                    <input class="btn btn-success" value ="Submit" type="submit">
                 </form>
             </div>
         </div>
@@ -76,6 +76,86 @@ $(document).ready(function(){
         $(".popup_close").click(function(){
             $(".popup_bg").fadeOut();
         });
+        
+        // $('#popup_form').submit(function(e){
+        //     e.preventDefault();
+        //     // $('.btn-success').prop('disabled', true);
+        //     subscribe_email_popup();
+        // });
+            
+        //PopUp Form Sign Up
+        $('#popup_form').submit(function (e) {
+            if ($("#subscribe_newsletter_popup").prop("checked") != true){
+                alert("Please agree to the term and conditions.");
+                return false;
+            }
+            e.preventDefault();
+            $.getJSON(
+                this.action + "?callback=?",
+                $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        alert("Please try again later.");
+                    } else { // 200
+                        $('#subForm').trigger('reset');
+                        $("#success_subscribe").fadeIn();
+                        
+                    }
+            });
+        });    
+
+    
+        function subscribe_email_popup(){ 
+            if (isValidEmailAddress($("#subscribe_email_popup").val())){  
+            
+                if($('#subscribe_newsletter_popup').is(":checked")) {
+                 
+                    var action="//mobilefringe.createsend.com/t/d/s/ykblt/"
+                    var data = {}
+                    data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
+                    data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
+                    $.getJSON(
+                        action + "?callback=?",
+                        data,
+                        function (data) {
+                            if (data.Status === 400) {
+                                alert("Please try again.");
+                            } else { // 200
+                                $("#success_subscribe_popup").fadeIn();
+                            }
+                    });    
+                } else {
+                    alert("Please check the 'Subscribe to recieve newsletter' checkbox")
+                    
+                }
+            } else {
+                alert("Please enter a valid email address.")
+            }
+        }
+    
+
+    
+    
+        // function subscribe_email_popup(){ 
+        //     if (isValidEmailAddress($("#subscribe_email_popup").val())){   
+        //         var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
+        //         var data = {}
+        //         data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
+        //         data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
+        //         $.getJSON(
+        //             action + "?callback=?",
+        //             data,
+        //             function (data) {
+        //                 if (data.Status === 400) {
+        //                     alert("Veuillez essayer de nouveau s’il vous plaît.");
+        //                 } else { // 200
+        //                     $("#success_subscribe_popup").fadeIn();
+        //                 }
+        //         });    
+        //     } else {
+        //         alert("Veuillez entrez un courriel valide.")
+        //     }
+        // }
     }
 
     loadMallData(renderAll);
