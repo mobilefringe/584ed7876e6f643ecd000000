@@ -40,6 +40,7 @@ $(document).ready(function(){
                 $("#error_msg").fadeIn("fast");
             }
         }); 
+        show_content();
     }
     loadMallDataCached(renderAll); 
 })
