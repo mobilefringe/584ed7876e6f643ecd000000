@@ -484,7 +484,7 @@ legend{
     font-family: inherit;
 }
 
-#success_subscribe{
+#success_subscribe, #success {
     display: none;
 }
 
