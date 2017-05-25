@@ -20,7 +20,7 @@
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -50%);
 }
 .pop_up_container{
     width:550px; 
