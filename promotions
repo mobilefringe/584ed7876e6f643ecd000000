@@ -51,11 +51,9 @@
 </div>
 
 <script>
-    $(document).ready(function(){
-        init();
-        
+    $(document).ready(function(e){
+        init(e);
         function renderAll(){
-                
             var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
             var mall_published_promos = [];
             var store_published_promos = [];
@@ -89,6 +87,6 @@
             
             show_content();
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     })
 </script>
