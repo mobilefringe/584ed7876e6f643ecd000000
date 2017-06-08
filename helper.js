@@ -1,15 +1,11 @@
 function init() {
-    var header_stores = getStoresList();
-    renderStoreList('#brand_select','#brand_select_template', header_stores, "stores");
-    $("#brand_select").prepend("<option selected>Brands</option>");
+    
     
     $("#brand_select").on('change', function() {            
         if ($(this).val() != ""){
             window.location = "/stores/"+ $(this).val();    
         }
     });  
-    
-    
     
     var _fbq = window._fbq || (window._fbq = []);
     if (!_fbq.loaded) {
@@ -108,6 +104,10 @@ function init() {
 function show_content(){
     $(".yield").css({visibility: "visible"});
     $(".modal-backdrop").remove();
+    
+    var header_stores = getStoresList();
+    renderStoreList('#brand_select','#brand_select_template', header_stores, "stores");
+    $("#brand_select").prepend("<option selected>Brands</option>");
     
     renderHomeHours();
     
