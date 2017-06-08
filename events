@@ -44,6 +44,6 @@
                 $('#no_events').show()
             }
         }
-        loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
     })
 </script>
