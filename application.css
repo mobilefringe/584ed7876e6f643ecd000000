@@ -186,7 +186,7 @@ p{
 /* *** */
 
 .yield {
-    visibility: hidden;
+    display: none;
 }
 
 .header {
