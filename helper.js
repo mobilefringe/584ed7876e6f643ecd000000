@@ -1,4 +1,6 @@
 function init() {
+    $('<div class="loader_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
+    
     $("#brand_select").on('change', function() {            
         if ($(this).val() != ""){
             window.location = "/stores/"+ $(this).val();    
