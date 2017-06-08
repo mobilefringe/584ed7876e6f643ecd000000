@@ -9,16 +9,7 @@ function init() {
         }
     });  
     
-    renderHomeHours();
     
-    var prop_details = getPropertyDetails();
-    renderPropertyDetails('#prop_phone_container', '#prop_phone_template', prop_details);
-    
-    var feature_items = getFeatureList();
-    var one_item = feature_items.slice(0,1);
-    renderFeatureItems('#feature_item','#feature_item_template', one_item);
-    var two_items = feature_items.slice(1,3);
-    renderFeatureItems('#home_feature','#home_feature_template', two_items);
     
     var _fbq = window._fbq || (window._fbq = []);
     if (!_fbq.loaded) {
@@ -112,4 +103,20 @@ function init() {
             }
         })
     }
+}
+
+function show_content(){
+    $(".yield").css({visibility: "visible"});
+    $(".modal-backdrop").remove();
+    
+    renderHomeHours();
+    
+    var prop_details = getPropertyDetails();
+    renderPropertyDetails('#prop_phone_container', '#prop_phone_template', prop_details);
+    
+    var feature_items = getFeatureList();
+    var one_item = feature_items.slice(0,1);
+    renderFeatureItems('#feature_item','#feature_item_template', one_item);
+    var two_items = feature_items.slice(1,3);
+    renderFeatureItems('#home_feature','#home_feature_template', two_items);
 }
