@@ -52,8 +52,10 @@
 
 <script>
     $(document).ready(function(){
+        init();
+        
         function renderAll(){
-                init();
+                
             var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
             var mall_published_promos = [];
             var store_published_promos = [];
@@ -84,6 +86,8 @@
             else{
                 $("#store_promo").show();
             }
+            
+            show_content();
         }
         loadMallDataCached(renderAll); 
     })
