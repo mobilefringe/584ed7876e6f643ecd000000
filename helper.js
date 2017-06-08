@@ -102,7 +102,7 @@ function init() {
 }
 
 function show_content(){
-    $(".yield").fadeIn();
+    $(".yield").css({visibility: "visible"});
     $(".modal-backdrop").remove();
     
     var header_stores = getStoresList();
