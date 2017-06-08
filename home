@@ -76,6 +76,6 @@ $(document).ready(function(){
         })
     }
 
-    loadMallData(renderAll);
+    loadMallDataCached(renderAll);
 });
 </script>
