@@ -271,10 +271,8 @@ p{
     right:30px;
 }
 
-
-
-.content_area{
-    background-image:url(BACKGROUND_IMAGE);
+.content_area {
+    // background-image:url(BACKGROUND_IMAGE);
     background-color: #D6D6D6;
 }
 
@@ -287,7 +285,7 @@ h1 {
     padding-top: 32px;
     padding-bottom: 32px;
     color:black;
-    font-family:futura_condensed;
+    font-family: futura_condensed;
 }
 h1.page_title{
     padding: 40px 0 0;
@@ -861,7 +859,7 @@ a.btn-nav {
 }
 
 .btn-nav:hover,.btn-nav:focus,.btn-nav:active  {
-    background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
+    // background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
 }
 
 .btn-nav a span {
@@ -896,7 +894,7 @@ a.btn-prime {
 }
 
 .nav-bar{
-   background-image:url(PRIMARY_NAV_IMAGE);
+//   background-image:url(PRIMARY_NAV_IMAGE);
 }
 
 .alphabet_bg{
@@ -913,7 +911,7 @@ a.btn-prime {
 
 .btn-prime:hover,.btn-prime:focus,.btn-prime:active,.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active  {
 	background-color:white;
-    background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
+    // background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
 }
 
 .btn-secondary {
@@ -933,7 +931,7 @@ a.btn-prime {
 
 .btn-social {
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_IMAGE);
+//   background-image:url(SECONDARY_BUTTON_IMAGE);
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D;
@@ -941,14 +939,14 @@ a.btn-prime {
 
 .btn-social:hover {
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);
+//   background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);
 }
 
 
 
 .btn-3{
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_IMAGE); 
+//   background-image:url(SECONDARY_BUTTON_IMAGE); 
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D; 
@@ -956,7 +954,7 @@ a.btn-prime {
 
 .btn-3:hover{
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);  
+//   background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);  
 }
 
 .caret{
@@ -1295,7 +1293,7 @@ a.btn-prime {
 }
 
 .flex-direction-nav a{
-    background: url(/system/site_images/photos/000/000/098/original/bg_direction_nav.png?1365699774) no-repeat scroll 0 0 transparent;
+    background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497039147000/bg_direction_nav.png) no-repeat scroll 0 0 transparent;
     height: 50px;
 }
 
