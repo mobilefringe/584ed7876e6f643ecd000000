@@ -183,7 +183,7 @@ function renderJobs(container, template, collection){
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
-            val.store_name = "Cornwall Centre";
+            val.store_name = "Heritage Place Mall";
         }
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
