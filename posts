@@ -15,14 +15,16 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function(e){
+        init(e);
         function renderAll(){
-            init();
             var blog = getBlogDataBySlug('cornwall-main');
-            console.log(blog);
             var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
-            
             renderPosts('#blog_container', '#blog_template', posts);
+            
+            setTimeout(function() {
+                show_content();
+            }, 500);
         }
         loadMallDataCached(renderAll); 
     })
