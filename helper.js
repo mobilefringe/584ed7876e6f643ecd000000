@@ -1,5 +1,5 @@
 function init() {
-    $('<div class="modal-backdrop loader_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
+    $('<div class="loader_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
     $("#brand_select").on('change', function() {            
         if ($(this).val() != ""){
@@ -103,7 +103,7 @@ function init() {
 
 function show_content(){
     $(".yield").css({visibility: "visible"});
-    $(".modal-backdrop").remove();
+    $(".loader_backdrop").remove();
     
     var header_stores = getStoresList();
     renderStoreList('#brand_select','#brand_select_template', header_stores, "stores");
