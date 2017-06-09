@@ -41,8 +41,8 @@ $(document).ready(function(e){
         }); 
         
         setTimeout(function() {
-                show_content();
-            }, 500);
+            show_content();
+        }, 500);
     }
     loadMallDataCached(renderAll); 
 })
