@@ -160,7 +160,9 @@
     		});
           	$("#scroll_to_marker").click();
           	
-          	show_content();
+          	setTimeout(function() {
+                show_content();
+            }, 500);
         }
         loadMallDataCached(renderAll); 
     })
