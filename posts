@@ -15,17 +15,17 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(e){
-        init(e);
-        function renderAll(){
-            var blog = getBlogDataBySlug('cornwall-main');
-            var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
-            renderPosts('#blog_container', '#blog_template', posts);
-            
-            setTimeout(function() {
-                show_content();
-            }, 500);
-        }
-        loadMallDataCached(renderAll); 
-    })
+$(document).ready(function(e){
+    init(e);
+    function renderAll(){
+        var blog = getBlogDataBySlug('cornwall-main');
+        var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
+        renderPosts('#blog_container', '#blog_template', posts);
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+    }
+    loadMallDataCached(renderAll); 
+})
 </script>
