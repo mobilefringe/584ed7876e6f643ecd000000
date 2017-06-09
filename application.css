@@ -1510,7 +1510,9 @@ hr{
 #lightbox .lb-outer-container .lb-container {
     max-width: 100%;
 }
-
+.lb-cancel {
+  background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/gif/1478472594000/loading.gif) no-repeat;
+}
 
 /************** map *************/
 .map {
