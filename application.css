@@ -44,9 +44,7 @@ p{
     font-size: 1.2em;
     line-height: 1.3em;
 }
-img {
-    max-width: 100%;
-}
+
 
 /* *** LOADER *** */
 .loader_backdrop{
@@ -203,7 +201,9 @@ img {
     padding:0;
     position:relative;
 }
-
+img {
+    max-width: 100%;
+}
 .top_nav{
     background-image:url(PRIMARY_NAV_IMAGE);
     height:auto;    
