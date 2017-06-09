@@ -209,7 +209,6 @@ p{
     position:relative;
 }
 .top_nav{
-    // background-image:url(PRIMARY_NAV_IMAGE);
     height:auto;    
     border: none;
     position:relative;
@@ -220,8 +219,8 @@ p{
     width: 100%;
     background-color: black;
     position: absolute;
-    top:0px;    
-    z-index:100;
+    top: 0px;    
+    z-index: 100;
 }
 
 .brand_nav .select_parent{
