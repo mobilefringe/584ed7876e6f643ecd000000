@@ -209,7 +209,7 @@ p{
     position:relative;
 }
 .top_nav{
-    background-image:url(PRIMARY_NAV_IMAGE);
+    // background-image:url(PRIMARY_NAV_IMAGE);
     height:auto;    
     border: none;
     position:relative;
