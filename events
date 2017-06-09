@@ -43,6 +43,10 @@
             else{
                 $('#no_events').show()
             }
+            
+            setTimeout(function() {
+                show_content();
+            }, 500);
         }
         loadMallDataCached(renderAll); 
     })
