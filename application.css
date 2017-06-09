@@ -41,10 +41,10 @@ body:after {
     display: none;
 }
 
-body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
-  display: none;
-}
+// body:after {
+//   content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+//   display: none;
+// }
 
 p{
     font-family: futura_medium_light, futura_medium_light_ie;
