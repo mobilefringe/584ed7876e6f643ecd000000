@@ -1513,7 +1513,9 @@ hr{
 .lb-cancel {
   background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/gif/1478472594000/loading.gif) no-repeat;
 }
-
+.lb-nav a.lb-prev {
+  background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/prev.png) left 48% no-repeat;
+}
 /************** map *************/
 .map {
     position: relative;
