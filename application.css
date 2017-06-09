@@ -139,6 +139,9 @@ p{
     -o-transform: translate(-25%, -50%);
     transform: translate(-25%, -50%);
 }
+.popup_home img {
+    max-width: auto;
+}
 .pop_up_container{
     width:550px; 
     height: 474px; 
