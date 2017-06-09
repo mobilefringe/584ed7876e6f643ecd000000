@@ -139,9 +139,6 @@ p{
     -o-transform: translate(-25%, -50%);
     transform: translate(-25%, -50%);
 }
-.popup_home img {
-    max-width: auto;
-}
 .pop_up_container{
     width:550px; 
     height: 474px; 
@@ -203,9 +200,6 @@ p{
     background-color: white;
     padding:0;
     position:relative;
-}
-img {
-    max-width: 100%;
 }
 .top_nav{
     background-image:url(PRIMARY_NAV_IMAGE);
