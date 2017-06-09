@@ -1969,7 +1969,7 @@ td.stores_pin{
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .trim_screen {
         // padding: 0 10px;
         padding: 0;
