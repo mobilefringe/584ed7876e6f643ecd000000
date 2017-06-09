@@ -106,64 +106,64 @@
 </div> 
 <script src="//s3.amazonaws.com/kodekloud/sites/5841df6b6e6f640488010000/text/javascript/1479491696000/craftmap.js"></script>
 <script>
-    $(document).ready(function(e){
-        init(e);
+$(document).ready(function(e){
+    init(e);
+    
+    function renderAll(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        var store_details = getStoreDetailsBySlug(slug);
         
-        function renderAll(){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            var store_details = getStoreDetailsBySlug(slug);
-            
-            renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
-            renderStoreDetails("#map_container","#map_template", store_details, slug);
-            
-            var store_promo_ids = store_details.promotions
-            var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
-            var published_promos = [];
-            $.each( store_promos , function( key, val ){
-                today = moment();
-                webDate = moment(val.show_on_web_date)
-                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-                    published_promos.push(val);
-                } 
-            });
-            if( published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos);
-                $('#promotions').show();
-            }
-            
-            var store_job_ids = store_details.jobs
-            var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
-            var published_jobs = [];
-            $.each(store_jobs , function( key, val ){
-                today = moment();
-                webDate = moment(val.show_on_web_date);
-                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-                    published_jobs.push(val);
-                } 
-            });
-            if( published_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', published_jobs);
-                $('#employment').show();
-            }
-
-            var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
-    		$('.demo1').craftmap({
-                image: {
-        			width: 840,
-    				height: 1221,
-    				name: 'imgMap'
-    			},
-    			map: {
-    				position: dimension
-    			}
-    		});
-          	$("#scroll_to_marker").click();
-          	
-          	setTimeout(function() {
-                show_content();
-            }, 500);
+        renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
+        renderStoreDetails("#map_container","#map_template", store_details, slug);
+        
+        var store_promo_ids = store_details.promotions
+        var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
+        var published_promos = [];
+        $.each( store_promos , function( key, val ){
+            today = moment();
+            webDate = moment(val.show_on_web_date)
+            if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                published_promos.push(val);
+            } 
+        });
+        if( published_promos.length > 0){
+            renderPromotions("#promos_container","#promos_template", published_promos);
+            $('#promotions').show();
         }
-        loadMallDataCached(renderAll); 
-    })
+        
+        var store_job_ids = store_details.jobs
+        var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
+        var published_jobs = [];
+        $.each(store_jobs , function( key, val ){
+            today = moment();
+            webDate = moment(val.show_on_web_date);
+            if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                published_jobs.push(val);
+            } 
+        });
+        if( published_jobs.length > 0){
+            renderJobs('#jobs_container', '#jobs_template', published_jobs);
+            $('#employment').show();
+        }
+
+        var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
+		$('.demo1').craftmap({
+            image: {
+    			width: 840,
+				height: 1221,
+				name: 'imgMap'
+			},
+			map: {
+				position: dimension
+			}
+		});
+      	$("#scroll_to_marker").click();
+      	
+      	setTimeout(function() {
+            show_content();
+        }, 500);
+    }
+    loadMallDataCached(renderAll); 
+})
 </script>
