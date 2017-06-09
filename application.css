@@ -1519,7 +1519,9 @@ hr{
 .lb-nav a.lb-next {
     background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/next.png) right 48% no-repeat;
 }
-
+.lb-data .lb-close {
+    background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/close.png) top right no-repeat;
+}
 /************** map *************/
 .map {
     position: relative;
