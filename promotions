@@ -85,7 +85,9 @@
                 $("#store_promo").show();
             }
             
-            show_content();
+            setTimeout(function() {
+                show_content();
+            }, 500);
         }
         loadMallDataCached(renderAll); 
     })
