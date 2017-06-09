@@ -44,6 +44,9 @@ p{
     font-size: 1.2em;
     line-height: 1.3em;
 }
+img {
+    max-width: 100%;
+}
 
 /* *** LOADER *** */
 .loader_backdrop{
