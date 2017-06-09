@@ -2117,8 +2117,8 @@ td.stores_pin{
     }
     #promo_details_container img,
     #event_details_container img {
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        // height: 100%;
     }
     .hour_date {
         font-size: 14px;
