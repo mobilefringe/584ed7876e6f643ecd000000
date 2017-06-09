@@ -48,6 +48,8 @@ $(document).ready(function(){
         var banners = getBanners();
         renderBanner('#home_banner_template','#home_banner', banners);
 
+        show_content();
+        
         $('.flexslider').flexslider({
             animation: "slide",
         });
@@ -73,7 +75,7 @@ $(document).ready(function(){
         $('.close_popup, .custom_backdrop').click(function(){
             $(".modal-backdrop").remove();
 	        $(".popup_home").remove();
-        })
+        });
     }
 
     loadMallData(renderAll);
