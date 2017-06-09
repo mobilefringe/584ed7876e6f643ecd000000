@@ -87,6 +87,6 @@
             
             show_content();
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     })
 </script>
