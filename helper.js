@@ -1,7 +1,7 @@
 function init() {
-    $('<div class="loader_backdrop"><img src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/gif/1478472594000/loading.gif" class="" alt=""></div>').appendTo(document.body);
+    $('<div class="loader_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
-    // <div class="loader">Loading...</div>
+    
     
     $("#brand_select").on('change', function() {            
         if ($(this).val() != ""){
