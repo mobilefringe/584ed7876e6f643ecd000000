@@ -421,18 +421,18 @@ function renderStoreList(container, template, collection, type){
             store_initial = current_initial;
             val.show = "display:block;";
         }
-        if(val.is_coming_soon_store == true){
-            val.coming_soon_store = "display:inline";
-        }
-        else{
-            val.coming_soon_store = "display:none";
-        }
-        if(val.is_new_store == true){
-            val.new_store = "display:inline";
-        }
-        else{
-            val.new_store = "display:none";
-        }
+        // if(val.is_coming_soon_store == true){
+        //     val.coming_soon_store = "display:inline";
+        // }
+        // else{
+        //     val.coming_soon_store = "display:none";
+        // }
+        // if(val.is_new_store == true){
+        //     val.new_store = "display:inline";
+        // }
+        // else{
+        //     val.new_store = "display:none";
+        // }
         
         if (val.total_published_promos > 0){
             val.promotion_exist = "display:inline";
