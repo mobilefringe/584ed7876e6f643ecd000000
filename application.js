@@ -421,18 +421,6 @@ function renderStoreList(container, template, collection, type){
             store_initial = current_initial;
             val.show = "display:block;";
         }
-        // if(val.is_coming_soon_store == true){
-        //     val.coming_soon_store = "display:inline";
-        // }
-        // else{
-        //     val.coming_soon_store = "display:none";
-        // }
-        // if(val.is_new_store == true){
-        //     val.new_store = "display:inline";
-        // }
-        // else{
-        //     val.new_store = "display:none";
-        // }
         
         if (val.total_published_promos > 0){
             val.promotion_exist = "display:inline";
@@ -443,6 +431,7 @@ function renderStoreList(container, template, collection, type){
         if(val.phone.length < 1){
             val.phone_exist = "display:none";
         }
+        
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();
