@@ -432,16 +432,13 @@ function renderStoreList(container, template, collection, type){
         else{
             val.new_store = "display:none";
         }
-        if (val.promotions.length > 0){
-            val.promotion_exist = "display:inline";
-            var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
-            if (store_promo != undefined){
-                val.promo_btn = "/promotions/" + store_promo.slug;
-            }
-        }
-        else{
+        
+        if (store.total_published_promos > 0){
+            store.promotion_exist = "display:inline";
+        } else {
             val.promotion_exist = "display:none";
         }
+        
         if(val.phone.length < 1){
             val.phone_exist = "display:none";
         }
