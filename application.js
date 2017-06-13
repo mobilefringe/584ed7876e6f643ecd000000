@@ -400,13 +400,7 @@ function renderStoreList(container, template, collection, type){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     var store_initial="";
-    
-    var storesList = collection;
-    var storesLength = storesList.length;
-    for (var i = 0; i < storesLength; i++) {
-        
-
-    // $.each( collection , function( key, val ) {
+    $.each( collection , function( key, val ) {
         if (type == "stores" || type == "category_stores"){
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
                 val.alt_store_front_url = "";
@@ -452,7 +446,7 @@ function renderStoreList(container, template, collection, type){
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();
         item_rendered.push(rendered);
-    }
+    });
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
