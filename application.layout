@@ -103,7 +103,7 @@
                         </li> 
                     </ul>
                     <a id="mobile_logo" href="/">
-                        <img class="mobile_logo" ALT="mobile_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700" />
+                        <img class="mobile_logo" ALT="mobile_logo" src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497456745000/cornwall_logo.png" />
                     </a>
                 </div>
                 <!-- iphone header END --> 
@@ -131,7 +131,7 @@
         <div class="hidden-xs row-fluid">
 	  	    <div class="trim_screen nav_container" id="site_nav">              
                 <a id="centre_logo" href="/">
-                    <img ALT="centre_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700" style="max-width:95%" />
+                    <img ALT="centre_logo" src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497456745000/cornwall_logo.png" style="max-width:95%" />
                 </a>
                 <ul>                  
                     <li class="dropdown ">
