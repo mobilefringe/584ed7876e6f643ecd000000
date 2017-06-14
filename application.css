@@ -798,7 +798,6 @@ legend{
     background-color: #282828;
     border-style: none;
     border: none;
-    // background-image: url(//www.mallmaverick.com/assets/top_nav_background.png);
     background-size: 100% 55px;
     background-repeat: repeat-x;
 }
@@ -911,12 +910,10 @@ a.btn-prime {
 
 .btn-prime:hover,.btn-prime:focus,.btn-prime:active,.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active  {
 	background-color:white;
-    // background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
 }
 
 .btn-secondary {
     background-color: transparent;
-    // background-image:url("//www.mallmaverick.com/primary_nav_images/original/missing.png");
     color: #000;
     font-family: inherit;
     margin: 2px;
@@ -931,7 +928,6 @@ a.btn-prime {
 
 .btn-social {
   color:#616161;
-//   background-image:url(SECONDARY_BUTTON_IMAGE);
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D;
@@ -939,14 +935,12 @@ a.btn-prime {
 
 .btn-social:hover {
   color:#616161;
-//   background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);
 }
 
 
 
 .btn-3{
   color:#616161;
-//   background-image:url(SECONDARY_BUTTON_IMAGE); 
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D; 
@@ -954,7 +948,6 @@ a.btn-prime {
 
 .btn-3:hover{
   color:#616161;
-//   background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);  
 }
 
 .caret{
@@ -1516,9 +1509,16 @@ hr{
 .lb-nav a.lb-next {
     background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/next.png) right 48% no-repeat;
 }
+.lb-data .lb-closeContainer {
+    position: relative;
+}
 .lb-data .lb-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
     background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/close.png) top right no-repeat;
 }
+
 /************** map *************/
 .map {
     position: relative;
