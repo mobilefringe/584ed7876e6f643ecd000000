@@ -21,10 +21,10 @@
                         <img src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497369767000/back_btn.png" />
                     </a>
                     {{name}} 
-                    <a href="#promo" class="pull-right" id="promo">
+                    <a href="#promo" class="pull-right hidden_now" id="promo_show">
                         <img src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497038419000/btn_promo.png" />
                     </a>
-                    <a href="#job" class="pull-right" id="job">
+                    <a href="#job" class="pull-right hidden_now" id="job_show">
                         <img src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497369916000/btn_job.png" />
                     </a> 
                 </h1>
