@@ -22,10 +22,10 @@
                     </a>
                     {{name}} 
                     <a href="#promo" class="pull-right" id="promo">
-                        <img src="codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497038419000/btn_promo.png" />
+                        <img src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497038419000/btn_promo.png" />
                     </a>
                     <a href="#job" class="pull-right" id="job">
-                        <img src="//www.mallmaverick.com/system/site_images/photos/000/000/770/original/btn_job.png?1381264320" />
+                        <img src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497369916000/btn_job.png" />
                     </a> 
                 </h1>
                 <hr>
