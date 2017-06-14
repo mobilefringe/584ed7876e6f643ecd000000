@@ -3,7 +3,7 @@
         <div class="row-fluid">
             <div class="map">
             	<div class="demo1">
-                    <img src="//www.mallmaverick.com/system/properties/maps/000/000/024/original/CORNC-0176-Map_only_CS5.jpg?1458074056" class="imgMap" id="map_image" />        		
+                    <img src="" class="imgMap" id="map_image" />        		
             		<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	
             	</div>
             </div>
@@ -146,7 +146,9 @@ $(document).ready(function(e){
             renderJobs('#jobs_container', '#jobs_template', published_jobs);
             $('#employment').show();
         }
-
+        
+        var map_src = getPNGMapURL();
+        $("#map_image").attr("src", map_src);
         var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
 		$('.demo1').craftmap({
             image: {
