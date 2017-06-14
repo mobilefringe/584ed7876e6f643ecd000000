@@ -18,7 +18,7 @@
             <div class="row-fluid">
                 <h1 class="store_page">
                     <a href="/stores" class="back_to">
-                        <img src="//www.mallmaverick.com/system/site_images/photos/000/000/769/original/back_btn.png?1381264220" />
+                        <img src="//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1497369767000/back_btn.png" />
                     </a>
                     {{name}} 
                     <a href="#promo" class="pull-right" id="promo">
