@@ -2362,7 +2362,9 @@ td.stores_pin{
     max-height:120px;
     overflow:hidden;
 }
-
+#post_container ul {
+    padding-left: 40px;
+}
 .feature_label, .long_feature_label {
     background-color: #000000;
 }
