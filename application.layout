@@ -32,7 +32,7 @@
         * using 'navigator.sendBeacon' in browser that support it.
         */
         var trackOutboundLink = function(url) {
-            ga('send', 'event', 'outbound', 'click', url, {
+            ga('send', 'event', 'BC Fires', 'click', url, {
                 'transport': 'beacon'
             });
         }
