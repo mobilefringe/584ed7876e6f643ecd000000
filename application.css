@@ -28,7 +28,10 @@
     src: url(//www.mallmaverick.com/system/site_images/photos/000/002/244/original/universalisadfstd-regular-webfont.eot?1396629430);
 }
 
-
+.bc_banner {
+    margin-bottom: 30px;
+    max-width: 95%;
+}
 
 body{
     font-family: futura_medium, Helvetica, sans-serif;
