@@ -69,7 +69,7 @@ function init() {
         $.post("https://cornwall.mallmaverick.com/verify_captcha", data, function(response){
             if(response.success == false){
                 grecaptcha.reset(widgetId1);
-                alert("Please revalidate captcha");
+                alert("Please validate captcha");
                 return false;
             }
         })
