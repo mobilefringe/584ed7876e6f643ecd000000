@@ -459,6 +459,10 @@
     alert("grecaptcha is ready!");
   };
 </script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
     
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
