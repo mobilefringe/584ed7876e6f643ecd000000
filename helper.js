@@ -63,6 +63,7 @@ function init() {
             if(response == false){
                 grecaptcha.reset(widgetId2);
                 alert("Please revalidate captcha");
+                return false;
             }
         })
         if ($("#agree_terms").prop("checked") != true){
