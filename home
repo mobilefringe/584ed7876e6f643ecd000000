@@ -82,8 +82,8 @@ $(document).ready(function(e){
         });
     }
     
-    $('#popupForm').submit(function(){
-        
+    $('#popupForm').submit(function(e){
+        data = {"g-recaptcha-response": $('#g-recaptcha-response').val()}
     });
 
     loadMallData(renderAll);
