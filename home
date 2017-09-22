@@ -81,6 +81,10 @@ $(document).ready(function(e){
 	        $(".popup_home").remove();
         });
     }
+    
+    $('#popupForm').submit(function(){
+        
+    });
 
     loadMallData(renderAll);
 });
