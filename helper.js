@@ -67,7 +67,7 @@ function init() {
     $('#subForm').submit(function (e) {
         data = {"g-recaptcha-response": $('#subForm .g-recaptcha-response').val()}
         $.post("https://cornwall.mallmaverick.com/verify_captcha", data, function(response){
-            if(response == false){
+            if(response.success == false){
                 grecaptcha.reset(widgetId1);
                 alert("Please revalidate captcha");
                 return false;
