@@ -19,6 +19,7 @@
                         <input type="checkbox" class="info_check" id="agree"/> I agree to receive newsletters from Cornwall Centre
                     </label>
                     <br /> 
+                    <div id="RecaptchaField2"></div>
                     <button class="btn btn-success"/>Subscribe</button>
                     <br/>
                     <span id="success">Thank you for subscribing to our newsletter.</span>
