@@ -84,6 +84,9 @@ $(document).ready(function(e){
     
     $('#popupForm').submit(function(e){
         data = {"g-recaptcha-response": $('#RecaptchaField2').val()}
+        $.post("https://cornwall.mallmaverick.com/verify_captcha", data, function(){
+            console.log(data);
+        })
     });
 
     loadMallData(renderAll);
