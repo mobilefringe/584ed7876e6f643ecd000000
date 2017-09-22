@@ -65,7 +65,7 @@ function init() {
     
     //Campaign Monitor Sign Up
     $('#subForm').submit(function (e) {
-        data = {"g-recaptcha-response": $('#popupForm .g-recaptcha-response').val()}
+        data = {"g-recaptcha-response": $('#subForm .g-recaptcha-response').val()}
         $.post("https://cornwall.mallmaverick.com/verify_captcha", data, function(response){
             if(response == false){
                 grecaptcha.reset(widgetId2);
