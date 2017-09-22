@@ -83,7 +83,7 @@ $(document).ready(function(e){
     }
     
     $('#popupForm').submit(function(e){
-        data = {"g-recaptcha-response": $('#g-recaptcha-response').val()}
+        data = {"g-recaptcha-response": $('#RecaptchaField2').val()}
     });
 
     loadMallData(renderAll);
