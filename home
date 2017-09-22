@@ -20,6 +20,7 @@
                     </label>
                     <br /> 
                     <div id="RecaptchaField2"></div>
+                    <br />
                     <button class="btn btn-success"/>Subscribe</button>
                     <br/>
                     <span id="success">Thank you for subscribing to our newsletter.</span>
