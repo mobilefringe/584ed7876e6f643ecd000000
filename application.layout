@@ -36,7 +36,9 @@
     
     <!--Javascript-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
     
 </head>
 
@@ -451,7 +453,6 @@
         setEndPoint('//cornwall.mallmaverick.com/api/v4/cornwall/all.json');
     </script>
     
-    <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
     <div id="fb-root"></div>
     
     <script type="text/javascript">
