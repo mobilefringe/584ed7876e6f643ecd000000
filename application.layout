@@ -298,6 +298,7 @@
                                 <label style="display:none" for="agree_terms">Subscribe</label>
                                 <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Cornwall Centre
                             </span>
+                            <div id="RecaptchaField1"></div>
                             <div class="g-recaptcha" data-sitekey="6LeQFDEUAAAAAIyoQARU6DiPg7g6ay5Oo2FCHNBZ"></div>
 
                             <br />
