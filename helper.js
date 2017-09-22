@@ -32,6 +32,13 @@ function init() {
     
     //Campaign Monitor Sign Up
     $('#popupForm').submit(function (e) {
+        data = {"g-recaptcha-response": $('#popupForm .g-recaptcha-response').val()}
+        $.post("https://cornwall.mallmaverick.com/verify_captcha", data, function(response){
+            if(response == false){
+                grecaptcha.reset(widgetId2);
+                alert("Please revalidate captcha");
+            }
+        });
         if ($("#agree").prop("checked") != true){
             alert("Please agree to the term and conditions.");
             $("#agree").focus();
