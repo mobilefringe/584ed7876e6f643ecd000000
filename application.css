@@ -148,6 +148,10 @@ p{
     -ms-transform: translate(-25%, -50%);
     -o-transform: translate(-25%, -50%);
     transform: translate(-25%, -50%);
+    img{
+        width:100%;
+    }
+    }
 }
 .pop_up_container{
     width:550px; 
