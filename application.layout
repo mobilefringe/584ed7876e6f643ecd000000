@@ -37,7 +37,7 @@
     <!--Javascript-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-     
+    <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
     
 </head>
 
@@ -455,13 +455,10 @@
     <div id="fb-root"></div>
     
     <script type="text/javascript">
-  var onloadCallback = function() {
-    alert("grecaptcha is ready!");
-  };
-</script>
-
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-        async defer>
+        var CaptchaCallback = function() {
+            grecaptcha.render('RecaptchaField1', {'sitekey' : '6LeQFDEUAAAAAIyoQARU6DiPg7g6ay5Oo2FCHNBZ'});
+            grecaptcha.render('RecaptchaField2', {'sitekey' : '6LeQFDEUAAAAAIyoQARU6DiPg7g6ay5Oo2FCHNBZ'});
+        };
     </script>
     
     <script>(function(d, s, id) {
