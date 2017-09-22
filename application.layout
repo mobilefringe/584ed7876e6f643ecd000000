@@ -454,6 +454,13 @@
     
     <div id="fb-root"></div>
     
+    <script type="text/javascript">
+        var CaptchaCallback = function() {
+            grecaptcha.render('RecaptchaField1', {'sitekey' : '6Lc_your_site_key'});
+            grecaptcha.render('RecaptchaField2', {'sitekey' : '6Lc_your_site_key'});
+        };
+    </script>
+    
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
