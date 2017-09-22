@@ -457,11 +457,10 @@
     <div id="fb-root"></div>
     
     <script type="text/javascript">
-        var CaptchaCallback = function() {
-            grecaptcha.render('RecaptchaField1', {'sitekey' : '6LeQFDEUAAAAAIyoQARU6DiPg7g6ay5Oo2FCHNBZ'});
-            //grecaptcha.render('RecaptchaField2', {'sitekey' : '6LeQFDEUAAAAAIyoQARU6DiPg7g6ay5Oo2FCHNBZ'});
-        };
-    </script>
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
+</script>
     
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
