@@ -34,7 +34,7 @@ function init() {
     $('#popupForm').submit(function (e) {
         data = {"g-recaptcha-response": $('#popupForm .g-recaptcha-response').val()}
         $.post("https://cornwall.mallmaverick.com/verify_captcha", data, function(response){
-            if(response == false){
+            if(response.success == false){
                 grecaptcha.reset(widgetId2);
                 alert("Please revalidate captcha");
             }
