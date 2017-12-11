@@ -1,6 +1,9 @@
 function init() {
     $('<div class="loader_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
+    var current_year = moment().year();
+    $("#current_year").text(current_year);
+
     $("#brand_select").on('change', function() {            
         if ($(this).val() != ""){
             window.location = "/stores/"+ $(this).val();    
